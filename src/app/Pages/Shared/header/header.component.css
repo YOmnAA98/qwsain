@@ -1,12 +1,33 @@
 .header{
     background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
 }
+.navbar a.navbar-brand{
+    font-size: 30px;
+}
 .navbar .navbar-toggler:focus{
     box-shadow: none;
 }
+.navbar .nav-link{
+    color: var(--white-color);    
+}
+.navbar .nav-link.active::after, .navbar .nav-link::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: var(--white-color);    
+}
+.navbar .nav-link::after{
+    width: 0px;
+}
+.navbar .nav-link:hover::after{
+    width: 100%;
+    transition: all ease-in-out 0.5s;
+}
 .navbar .navbar-account .btn{
     background-color: var(--light-color);
-    color: var(--white-color);    
+    color: var(--white-color);  
+    border-radius: 0%;  
 }
 .navbar .navbar-account .profile span{
     color: var(--white-color);
@@ -15,10 +36,12 @@
     font-size: 20px;    
 }
 .navbar .navbar-account .profile .dropdown-menu{
-    background-color: transparent;
+    background-color: var(--white-color);
+}
+.navbar .navbar-account .profile .dropdown-menu .dropdown-item{
+    color: var(--primary-color);
 }
 .navbar .navbar-account .profile .dropdown-menu .dropdown-item:hover{
     background-color: transparent;
     color: var(--light-color);
-    transition: all ease-in-out 0.3s;
 }

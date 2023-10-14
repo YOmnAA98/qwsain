@@ -1,8 +1,5 @@
 .footer{    
-    background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
+    background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));    
 }
 .footer .content h4{
     color: var(--white-color);
@@ -12,5 +9,6 @@
     font-size: 15px;
 }
 .footer .content p{
+    border-top: 1px solid var(--text-color);    
     color: var(--white-color);
 }

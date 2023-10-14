@@ -1,4 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: "Tajawal";
+    src: url(./assets/fonts/Tajawal-Regular.ttf);
+}
 :root{
     --primary-color: #7C32FF;
     --secondary-color: #B537E1;
@@ -12,7 +16,8 @@
 *{
     padding: 0px;
     margin: 0px;
-    box-sizing: border-box;    
+    box-sizing: border-box; 
+    font-family: "Tajawal";
 }
 /* common styles */
 a{
