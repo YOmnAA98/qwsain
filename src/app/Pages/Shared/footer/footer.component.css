@@ -1,0 +1,16 @@
+.footer{    
+    background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+.footer .content h4{
+    color: var(--white-color);
+}
+.footer .content ul li{
+    display: inline-block;
+    font-size: 15px;
+}
+.footer .content p{
+    color: var(--white-color);
+}

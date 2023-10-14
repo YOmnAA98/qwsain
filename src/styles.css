@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+    --primary-color: #7C32FF;
+    --secondary-color: #B537E1;
+    --dark-color: ;
+    --light-color: #AFAFFF;
+    --semi-color: ;
+    --text-color: #999999;
+    --dark-text: #444444;
+    --white-color: #ffffff;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;    
+}
+/* common styles */
+a{
+    text-decoration: none;  
+    color: var(--white-color);  
+}

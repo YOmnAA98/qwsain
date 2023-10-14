@@ -1,0 +1,24 @@
+.header{
+    background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+}
+.navbar .navbar-toggler:focus{
+    box-shadow: none;
+}
+.navbar .navbar-account .btn{
+    background-color: var(--light-color);
+    color: var(--white-color);    
+}
+.navbar .navbar-account .profile span{
+    color: var(--white-color);
+}
+.navbar .navbar-account .profile i{
+    font-size: 20px;    
+}
+.navbar .navbar-account .profile .dropdown-menu{
+    background-color: transparent;
+}
+.navbar .navbar-account .profile .dropdown-menu .dropdown-item:hover{
+    background-color: transparent;
+    color: var(--light-color);
+    transition: all ease-in-out 0.3s;
+}

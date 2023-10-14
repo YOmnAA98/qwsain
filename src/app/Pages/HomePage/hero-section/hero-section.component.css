@@ -1,0 +1,25 @@
+.hero{
+    /* height: 100vh; */
+    background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+}
+.hero .title h2{
+    color: var(--white-color);
+    font-size: 40px;
+}
+.hero .title p{
+    color: var(--white-color);
+    font-size: 18px;
+}
+.hero .search{
+    position: relative;
+}
+.hero .search input{
+    height: 50px;
+}
+.hero .search button{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    background: linear-gradient(90deg, #7C32FF, #B537E1);
+    color: var(--white-color);
+}
