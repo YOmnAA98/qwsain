@@ -1,0 +1,18 @@
+.home-courses{
+    margin: 100px 0px;
+}
+.home-courses .courses-title h2::after{
+    content: "";
+    display: block;
+    margin: 3px auto;
+    width: 5%;
+    height: 3px;
+    background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+}
+.home-courses .courses-content .course p{
+    color: var(--text-color);
+}
+.home-courses .courses-content .course a, .home-courses .courses-btn a{
+    background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+    color: var(--white-color);
+}

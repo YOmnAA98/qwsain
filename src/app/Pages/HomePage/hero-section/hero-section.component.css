@@ -1,9 +1,10 @@
 .hero{    
-    background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));    
+    background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+    overflow-x: hidden;
 }
 .hero .title h2{
     color: var(--white-color);
-    font-size: 40px;
+    font-size: 40px;    
 }
 .hero .title p{
     color: var(--white-color);
@@ -15,10 +16,15 @@
 .hero .search input{
     height: 50px;
 }
+.hero .search input:focus{
+    box-shadow: none;
+    border-color: var(--primary-color);
+}
 .hero .search button{
     position: absolute;
     left: 5px;
     top: 5px;
     background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
     color: var(--white-color);
+    z-index: 10;
 }
