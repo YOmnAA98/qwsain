@@ -7,7 +7,8 @@ import { CoursesComponent } from './Pages/courses/courses.component';
 import { CourseDetailsComponent } from './Pages/course-details/course-details.component';
 import { ArticlesComponent } from './Pages/articles/articles.component';
 import { ArticleDetailsComponent } from './Pages/article-details/article-details.component';
-import { QuestionSectionComponent } from './Pages/HomePage/question-section/question-section.component';
+import { DictionaryComponent } from './Pages/dictionary/dictionary.component';
+import { QuestionsComponent } from './Pages/questions/questions.component';
 import { LoginComponent } from './Pages/login/login.component';
 import { SignUpComponent } from './Pages/sign-up/sign-up.component';
 import { VerificationComponent } from './Pages/verification/verification.component';
@@ -15,6 +16,7 @@ import { ForgetPasswordComponent } from './Pages/forget-password/forget-password
 import { ResetPasswordComponent } from './Pages/reset-password/reset-password.component';
 import { PrivacyPolicyComponent } from './Pages/privacy-policy/privacy-policy.component';
 import { TermsAndConditionsComponent } from './Pages/terms-and-conditions/terms-and-conditions.component';
+
 
 const routes: Routes = [
   {path: '',   redirectTo: '/home', pathMatch: 'full' },
@@ -27,8 +29,9 @@ const routes: Routes = [
 
   {path: 'articles', component: ArticlesComponent},
   {path: 'article', component: ArticleDetailsComponent},
-
-  {path: 'questions', component: QuestionSectionComponent},
+    
+  {path: 'questions', component: QuestionsComponent},
+  {path: 'dictionary', component: DictionaryComponent},
 
   {path: 'login', component: LoginComponent},
   {path: 'sign-up', component: SignUpComponent},

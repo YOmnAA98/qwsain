@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-  isVisible = false;
+  isVisible = true;  
 }
+
+// $(window).scroll(function() {
+//   $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+// });

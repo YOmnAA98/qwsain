@@ -1,18 +1,43 @@
-<footer id="footer" class="footer mt-5 pb-0" name="footer">
+<footer id="footer" class="footer" name="footer">
     <div class="container-xl">
-        <div class="content text-center pt-5 pb-2">
-            <h4>قوسين</h4>
-            <ul class="p-0 pt-3">
-                <li class="px-3"><a href="#">الرئيسية</a></li>
-                <li class="px-3"><a href="#">عن الموقع</a></li>
-                <li class="px-3"><a href="#">الدورات</a></li>
-                <li class="px-3"><a href="#">المقالات</a></li>
-                <li class="px-3"><a href="#">تواصل معنا</a></li>
-                <li class="px-3"><a href="#">الأسئلة</a></li>
-                <li class="px-3"><a href="#">سياسة الخصوصية</a></li>
-                <li class="px-3"><a href="#">سياسة الاستخدام</a></li>
-              </ul>                            
-              <p class="pt-4">جميع الحقوق محفوظة © 2023 قوسين</p>
-        </div>          
+        <div class="content row row-cols-sm-2 row-cols-lg-4 py-5">
+            <div class="logo">
+                <h3>قوسين</h3>
+                <p>موقع قوسين هو موقع لتعليم برمجة الحاسب الآلي خصوصا و علوم الحاسب الآلي عموما</p>
+            </div>
+            <div class="lists px-lg-5">
+                <h6>لينكات</h6>
+                <ul class="list-group">                    
+                    <li class="list-group-item border-0 px-0"><a routerLink="/courses">الدورات</a></li>
+                    <li class="list-group-item border-0 px-0"><a routerLink="/articles">المقالات</a></li>
+                    <li class="list-group-item border-0 px-0"><a routerLink="/dictionary">القاموس</a></li>
+                    <li class="list-group-item border-0 px-0"><a routerLink="/questions">الأسئلة</a></li>
+                </ul>
+            </div>
+            <div class="info">
+                <h6>معلومات</h6>
+                <ul class="list-group">                    
+                    <li class="list-group-item border-0 px-0"><a routerLink="/about">معلومات عنا</a></li>                
+                    <li class="list-group-item border-0 px-0"><a routerLink="/contact-us">تواصل معنا</a></li>                
+                    <li class="list-group-item border-0 px-0"><a routerLink="/privacy-policy">سياسة الخصوصية</a></li>
+                    <li class="list-group-item border-0 px-0"><a routerLink="/terms-and-conditions">الشروط و الأحكام</a></li>
+                  </ul> 
+            </div> 
+            <div class="media">
+                <h6>معلومات التواصل</h6>                
+                <ul class="list-group py-3">
+                    <li class="list-group-item border-0 p-0 "><a routerLink="">+20101010101010</a></li>                
+                    <li class="list-group-item border-0 p-0"><a routerLink="">yomna@gmail.com</a></li> 
+                </ul>
+                <h6>سوشيال ميديا</h6>
+                <ul class="list-group list-group-horizontal media-icons">
+                    <li class="list-group-item border-0 ps-0 pe-1"><a routerLink=""><i class="bi bi-facebook"></i></a></li>                
+                    <li class="list-group-item border-0 px-2"><a routerLink=""><i class="bi bi-twitter"></i></a></li>                    
+                </ul>
+            </div>                                        
+        </div>  
+        <div class="copy-write text-center">            
+            <p class="py-3 mb-0">جميع الحقوق محفوظة © 2023 قوسين</p>
+        </div>
     </div>
 </footer>

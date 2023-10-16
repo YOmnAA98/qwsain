@@ -1,14 +1,35 @@
 .footer{    
-    background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));    
+    background: var(--primary-color);    
 }
-.footer .content h4{
+.footer .content h3{
+    color: var(--white-color);
+    font-weight: bold;
+}
+.footer .content ul li{    
+    background: none;
+}
+.footer .content .logo p{
+    width: 200px;
+}
+.footer .content h6{
+    color: var(--white-color);
+    font-size: 18px;
+    font-weight: bold;
+}
+.footer .content .media .media-icons i{
+    background-color: var(--white-color);
+    color: var(--primary-color);
+    padding: 5px 8px;
+    border-radius: 50%;
+}
+.footer p{    
     color: var(--white-color);
 }
-.footer .content ul li{
-    display: inline-block;
-    font-size: 15px;
+.footer .copy-write p{
+    border-top: 1px solid var(--white-color);    
 }
-.footer .content p{
-    border-top: 1px solid var(--text-color);    
-    color: var(--white-color);
+@media screen and (max-width: 575px) {
+    .footer .content .logo p{
+        width: auto;
+    }   
 }

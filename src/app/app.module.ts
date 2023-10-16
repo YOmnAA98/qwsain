@@ -8,7 +8,6 @@ import { HeaderComponent } from './Pages/Shared/header/header.component';
 import { FooterComponent } from './Pages/Shared/footer/footer.component';
 import { HeroSectionComponent } from './Pages/HomePage/hero-section/hero-section.component';
 import { AboutSectionComponent } from './Pages/HomePage/about-section/about-section.component';
-import { ContactUsSectionComponent } from './Pages/HomePage/contact-us-section/contact-us-section.component';
 import { CoursesSectionComponent } from './Pages/HomePage/courses-section/courses-section.component';
 import { ArticlesSectionComponent } from './Pages/HomePage/articles-section/articles-section.component';
 import { QuestionSectionComponent } from './Pages/HomePage/question-section/question-section.component';
@@ -18,6 +17,8 @@ import { CoursesComponent } from './Pages/courses/courses.component';
 import { ArticlesComponent } from './Pages/articles/articles.component';
 import { CourseDetailsComponent } from './Pages/course-details/course-details.component';
 import { ArticleDetailsComponent } from './Pages/article-details/article-details.component';
+import { DictionaryComponent } from './Pages/dictionary/dictionary.component';
+import { QuestionsComponent } from './Pages/questions/questions.component';
 import { SignUpComponent } from './Pages/sign-up/sign-up.component';
 import { LoginComponent } from './Pages/login/login.component';
 import { VerificationComponent } from './Pages/verification/verification.component';
@@ -33,24 +34,25 @@ import { TermsAndConditionsComponent } from './Pages/terms-and-conditions/terms-
     HeaderComponent,
     FooterComponent,    
     HeroSectionComponent,
-    AboutSectionComponent,    
-    ContactUsSectionComponent,
+    AboutSectionComponent,        
     CoursesSectionComponent,
     ArticlesSectionComponent, 
+    DictionaryComponent,   
     QuestionSectionComponent,
     AboutComponent,
     ContactUsComponent,           
     CoursesComponent,
     ArticlesComponent,
     CourseDetailsComponent,
-    ArticleDetailsComponent,    
+    ArticleDetailsComponent,
+    QuestionsComponent,       
     SignUpComponent,
     LoginComponent,
     VerificationComponent,
     ForgetPasswordComponent,
     ResetPasswordComponent,    
     PrivacyPolicyComponent,
-    TermsAndConditionsComponent,    
+    TermsAndConditionsComponent,        
   ],
   imports: [
     BrowserModule,

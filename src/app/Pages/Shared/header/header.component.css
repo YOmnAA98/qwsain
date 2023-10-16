@@ -1,36 +1,50 @@
 .header{
-    background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+    background: var(--white-color);
 }
 .navbar a.navbar-brand{
     font-size: 30px;
+    color: var(--primary-color);    
+}
+.navbar .navbar-toggler span i{
+    color: var(--primary-color);
+    font-size: 40px;
 }
 .navbar .navbar-toggler:focus{
     box-shadow: none;
 }
 .navbar .nav-link{
-    color: var(--white-color);    
+    color: var(--primary-color);    
 }
 .navbar .nav-link.active::after, .navbar .nav-link::after{
     content: "";
     display: block;
     width: 100%;
     height: 2px;
-    background-color: var(--white-color);    
+    background-color: var(--primary-color);    
 }
 .navbar .nav-link::after{
-    width: 0px;
+    width: 0%;
 }
 .navbar .nav-link:hover::after{
     width: 100%;
     transition: all ease-in-out 0.5s;
 }
+@media screen and (max-width: 991px) {
+    .navbar .nav-link.active::after, .navbar .nav-link:hover:after{
+        width: 0%;          
+    }
+}
 .navbar .navbar-account .btn{
-    background-color: var(--light-color);
+    background-color: var(--primary-color);
     color: var(--white-color);  
     border-radius: 0%;  
+    opacity: 0.8;
+}
+.navbar .navbar-account .btn:hover{
+    opacity: 1;
 }
 .navbar .navbar-account .profile span{
-    color: var(--white-color);
+    color: var(--primary-color);
 }
 .navbar .navbar-account .profile i{
     font-size: 20px;    
@@ -40,8 +54,5 @@
 }
 .navbar .navbar-account .profile .dropdown-menu .dropdown-item{
     color: var(--primary-color);
-}
-.navbar .navbar-account .profile .dropdown-menu .dropdown-item:hover{
-    background-color: transparent;
-    color: var(--light-color);
+    margin: 3px 0px;
 }

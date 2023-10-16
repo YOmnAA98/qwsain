@@ -1,42 +1,45 @@
-<header id="header" class="header" name="header">  
+<header id="header" class="header h-shadow sticky-top shadow" name="header">
   <div class="container-xl">
-    <nav class="navbar navbar-expand-lg text-center" data-bs-theme="dark">    
-      <h1><a class="navbar-brand" href="#">قوسين</a></h1>
+    <nav class="navbar navbar-expand-lg text-center">    
+      <h1><a class="navbar-brand" routerLink="/home">قوسين</a></h1>
       <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span class=""><i class="bi bi-list"></i></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav m-auto mb-2 mb-lg-0">
           <li class="nav-item px-2">
-            <a class="nav-link active" aria-current="page" href="#">الرئيسية</a>
+            <a class="nav-link active" aria-current="page" routerLink="/home">الرئيسية</a>
+          </li>          
+          <li class="nav-item px-2">
+            <a class="nav-link" routerLink="/courses">الدورات</a>
           </li>
           <li class="nav-item px-2">
-            <a class="nav-link" href="#">عن الموقع</a>
+            <a class="nav-link" routerLink="/articles">المقالات</a>
           </li>
           <li class="nav-item px-2">
-            <a class="nav-link" href="#">الدورات</a>
+            <a class="nav-link" routerLink="/dictionary">القاموس</a>
           </li>
           <li class="nav-item px-2">
-            <a class="nav-link" href="#">المقالات</a>
+            <a class="nav-link" routerLink="/questions">أسئلة</a>
           </li>
           <li class="nav-item px-2">
-            <a class="nav-link" href="#">تواصل معنا</a>
+            <a class="nav-link" routerLink="/about">معلومات عنا</a>
           </li>
           <li class="nav-item px-2">
-            <a class="nav-link" href="#">أسئلة</a>
-          </li>
+            <a class="nav-link" routerLink="/contact-us">تواصل معنا</a>
+          </li>          
         </ul>
         <div class="navbar-account">
-          <a class="btn btn-sm me-2 my-1" href="#"> سجّل مجاناً </a>          
-          <a class="btn btn-sm me-2 my-1" href="#"> الدخول </a>
+          <a class="btn btn-sm me-2 my-1" routerLink="/sign-up"> سجّل مجاناً </a>          
+          <a class="btn btn-sm me-2 my-1" routerLink="/login"> الدخول </a>
           <div *ngIf="isVisible" id="profile" class="profile btn-group">
             <span type="button" data-bs-toggle="dropdown" aria-expanded="false">
               <i class="bi bi-person-circle"></i>
               يُمنى رأفت              
             </span>
-            <ul class="dropdown-menu border-0 shadow-lg rounded-0 px-3 py-4">
-              <li><a class="dropdown-item" href="#">إعدادات الحساب</a></li>
-              <li><a class="dropdown-item" href="#">تسجيل الدخول</a></li>              
+            <ul class="dropdown-menu border-0 shadow-lg   px-3 py-4">
+              <li><a class="dropdown-item" routerLink="">إعدادات الحساب</a></li>
+              <li><a class="dropdown-item" routerLink="">تسجيل الدخول</a></li>              
             </ul>
           </div>          
         </div>
