@@ -1,6 +1,10 @@
 .home-courses{    
     padding: 100px 0px;
-    background: var(--primary-color);
+    background: var(--secondary-color);
+}
+.home-courses .courses-content .course:hover{
+    transform: scale(1.1, 1.1);
+    transition: all ease-in-out 0.5s;
 }
 .home-courses .courses-content .course img{
     width: 100%;
@@ -17,12 +21,11 @@
     height: 3px;
     background: var(--white-color);
 }
+.home-courses .courses-content .course h4{
+    color: var(--dark-text);
+}
 .home-courses .courses-content .course p{
     color: var(--text-color);
-}
-.home-courses .courses-content .course a{
-    background-color: var(--primary-color);
-    color: var(--white-color);
 }
 .home-courses .courses-btn a{
     background-color: var(--white-color);

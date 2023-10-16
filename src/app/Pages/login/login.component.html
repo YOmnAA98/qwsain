@@ -1,1 +1,26 @@
-<p>login works!</p>
+<section id="login" class="login d-flex align-items-md-center" name="login">
+    <div class="container-xl">
+        <div class="login-content shadow-lg row row-cols-md-2">
+            <div class="login-info p-5">
+                <form class="text-center" action="/home">
+                    <i class="bi bi-person-circle"></i>
+                    <h4 class="py-3">مرحباً بك في قوسين</h4>
+                    <div class="form-floating mb-3 mt-3">
+                        <input type="email" class="form-control rounded-0 shadow-none" id="email" placeholder="البريد الإلكتروني" name="email"  autocomplete="email" required>
+                        <label for="email">البريد الإلكتروني</label>
+                      </div>
+                      
+                      <div class="form-floating mt-3 mb-3">
+                        <input type="password" class="form-control rounded-0 shadow-none" id="pwd" placeholder="كلمة المرور" name="pswd" autocomplete="new-password" required>
+                        <label for="pwd">كلمة المرور</label>
+                      </div>
+                      
+                      <button type="submit" class="btn rounded-0">سجل</button>
+                </form>
+            </div>
+            <div class="login-photo d-flex justify-content-center align-items-center">
+                <img class="img-fluid" src="../../../assets/images/account images/Login Customizable Flat Illustrations _ Rafiki Style.jpeg" alt="login-photo">
+            </div>
+        </div>
+    </div>
+</section>

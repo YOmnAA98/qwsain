@@ -1,0 +1,28 @@
+.login{
+    height: 100vh;    
+    background: linear-gradient(90deg, var(--light-color) 50%, var(--secondary-color) 50%);
+}
+.login .login-info form i{
+    font-size: 90px;
+    color: var(--white-color);
+}
+.login .login-info form h4{
+     color: var(--white-color);
+     font-weight: bold;
+}
+.login .login-info form input{
+    width: 100%;
+}
+.login .login-info form label{
+    color: var(--primary-color);    
+}
+.login .login-info form button{
+    background-color: var(--white-color);
+    color: var(--primary-color);
+}
+@media screen and (max-width: 767px) {
+    .login{
+        height: auto;    
+        background: linear-gradient(0deg, var(--light-color) 50%, var(--secondary-color) 50%);
+    }   
+}
