@@ -16,6 +16,12 @@
     font-size: 18px;
     font-weight: bold;
 }
+.footer .content .media .media-icons{
+    padding: 0px;
+}
+.footer .content .media .media-icons li{
+    display: inline-block;
+}
 .footer .content .media .media-icons i{
     background-color: var(--white-color);
     color: var(--primary-color);
@@ -35,6 +41,9 @@
     border-top: 1px solid var(--white-color);    
 }
 @media screen and (max-width: 575px) {
+    .footer .content{
+        text-align: center;
+    }
     .footer .content .logo p{
         width: auto;
     }   

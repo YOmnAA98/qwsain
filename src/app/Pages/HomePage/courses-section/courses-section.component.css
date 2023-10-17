@@ -31,6 +31,10 @@
     background-color: var(--white-color);
     color: var(--primary-color);
 }
+.home-courses .courses-btn a:hover{
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);    
+    transition: all ease-in-out 0.5s;
+}
 @media screen and (max-width: 991px) {
     .home-courses .courses-content .course{
         width: 340px;

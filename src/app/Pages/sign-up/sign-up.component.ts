@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./sign-up.component.css']
 })
 export class SignUpComponent {
+  
+  fieldPasswordType:boolean = false;
+  fieldConfirmPasswordType:boolean = false;  
 
+  showHidePassword() {
+    this.fieldPasswordType = !this.fieldPasswordType
+  }
+  
+  showHideConfirmPassword() {
+    this.fieldConfirmPasswordType = !this.fieldConfirmPasswordType
+  } 
 }

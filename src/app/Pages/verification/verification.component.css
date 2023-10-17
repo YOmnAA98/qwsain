@@ -29,11 +29,11 @@
     border: 1px solid var(--primary-color);    
     box-shadow: 0px 0px 5px var(--primary-color) inset;
 }
-.verify .verify-content form button{
+.verify .verify-content form button[type="submit"]{
     background-color: var(--primary-color);
     color: var(--white-color);
 }
-.verify .verify-content form button:hover{
+.verify .verify-content form button[type="submit"]:hover:enabled{
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
     opacity: 0.8;
     transition: all ease-in-out 0.5s;

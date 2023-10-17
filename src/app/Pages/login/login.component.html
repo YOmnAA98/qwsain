@@ -1,21 +1,26 @@
 <section id="login" class="login d-flex align-items-md-center" name="login">
-    <div class="container-sm">
+    <div class="container-xl">
         <div class="login-content shadow-lg p-5">
             <form class="text-center" action="/home">                    
                 <h3>سجل الدخول لحسابك</h3>
                 <p class="py-3">ليس لديك حساب على قوسين؟ <a routerLink="/sign-up">أنشىء حسابك</a></p>
 
-                <div class="form-floating mb-3 mt-3">
+                <div class="form-floating my-3">
                     <input type="email" class="form-control rounded-0 shadow-none" id="email" placeholder="البريد الإلكتروني" name="email"  autocomplete="email" required>
                     <label for="email">البريد الإلكتروني</label>
                   </div>
                   
-                  <div class="form-floating mt-3 mb-3">
-                    <input type="password" class="form-control rounded-0 shadow-none" id="pwd" placeholder="كلمة المرور" name="pswd" autocomplete="new-password" required>
-                    <label for="pwd">كلمة المرور</label>
-                    <a class="d-block pt-3 text-start" routerLink="/forget-password">هل نسيت كلمة السر؟</a>
+                  <div class="form-floating input-group my-3">
+                    <input [type]="fieldTextType ? 'text' : 'password'" type="password" class="form-control rounded-0 shadow-none" id="pwd" placeholder="كلمة المرور" name="pswd" autocomplete="new-password" required>
+                    <button class="btn" type="button" (click)="showHidePassword()">
+                        <i class="bi" [ngClass]="{'bi-eye-slash': !fieldTextType, 'bi-eye': fieldTextType}"></i>                        
+                    </button>
+                    <label for="pwd">كلمة المرور</label>                    
                   </div>                  
-                  <button type="submit" class="btn rounded-0">تسجيل الدخول</button>
+                  <div class="text-start">
+                    <a routerLink="/forget-password">هل نسيت كلمة السر؟</a>
+                  </div>
+                  <button type="submit" class="btn rounded-0" disabled>تسجيل الدخول</button>
             </form>            
         </div>
     </div>

@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent {
-
+  
+  fieldTextType:boolean = false;  
+  showHidePassword() {
+    this.fieldTextType = !this.fieldTextType
+  }
 }
