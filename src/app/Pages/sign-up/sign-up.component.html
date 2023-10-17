@@ -1,1 +1,24 @@
-<p>sign-up works!</p>
+<section id="signup" class="signup d-flex align-items-md-center" name="signup">
+    <div class="container-sm">
+        <div class="signup-content shadow-lg p-5">
+            <form class="text-center" action="/home">                    
+                <h3>أنشىء حسابك المجاني</h3>
+                <p class="py-3">هل لديك حساب على قوسين؟ <a routerLink="/login">تسجيل الدخول</a></p>
+
+                <div class="form-floating mb-3 mt-3">
+                    <input type="email" class="form-control rounded-0 shadow-none" id="email" placeholder="البريد الإلكتروني" name="email"  autocomplete="email" required>
+                    <label for="email">البريد الإلكتروني</label>
+                  </div>
+                  <div class="form-floating mt-3 mb-3">
+                    <input type="text" class="form-control rounded-0 shadow-none" id="name" placeholder="اسمك بالكامل" name="name" autocomplete="name" required>
+                    <label for="name">اسمك بالكامل</label>                    
+                  </div> 
+                  <div class="form-floating mt-3 mb-3">
+                    <input type="password" class="form-control rounded-0 shadow-none" id="pwd" placeholder="كلمة المرور" name="pswd" autocomplete="new-password" required>
+                    <label for="pwd">كلمة المرور</label>                    
+                  </div>                  
+                  <button type="submit" class="btn rounded-0">سجل الآن</button>
+            </form>            
+        </div>
+    </div>
+</section>

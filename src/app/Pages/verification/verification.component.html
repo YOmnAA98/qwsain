@@ -1,1 +1,20 @@
-<p>verification works!</p>
+<section id="verify" class="verify d-flex align-items-md-center" name="verify">
+    <div class="container-sm">
+        <div class="verify-content shadow-lg p-5">
+            <form class="text-center" action="/home">                    
+                <h3>تأكيد حسابك</h3>
+                <p class="py-3">أدخل كود التأكيد</p>
+                <div class="row row-cols-6 d-flex justify-content-center mb-4" dir="ltr">
+                    <input type="text" class="form-control rounded-0 m-2" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
+                    <input type="text" class="form-control rounded-0 m-2" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
+                    <input type="text" class="form-control rounded-0 m-2" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
+                    <input type="text" class="form-control rounded-0 m-2" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
+                    <input type="text" class="form-control rounded-0 m-2" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
+                    <input type="text" class="form-control rounded-0 m-2" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
+                </div>
+                <a routerLink="">أرسل الكود مرة أخرى</a>
+                <button type="submit" class="btn d-block m-auto rounded-0 my-3">تأكيد الحساب</button>
+            </form>            
+        </div>
+    </div>
+</section>

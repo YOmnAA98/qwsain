@@ -1,0 +1,65 @@
+.verify{
+    margin: 100px 0px;
+}
+.verify .verify-content{
+    width: 50%;
+    margin: auto;
+}
+.verify .verify-content form h3{
+     color: var(--dark-text);
+     font-weight: bold;
+}
+.verify .verify-content form p{
+    font-size: 18px;
+    color: var(--text-color);
+}
+.verify .verify-content form a{
+    color: var(--primary-color);
+    font-weight: bold;
+}
+.verify .verify-content form input{
+    width: 10%;
+    line-height: 80px;
+    text-align: center;
+    font-size: 30px;       
+    box-shadow: 0px 0px 5px #ccc inset;
+    transition: all ease-in-out 0.2s;
+}
+.verify .verify-content form input:focus{
+    border: 1px solid var(--primary-color);    
+    box-shadow: 0px 0px 5px var(--primary-color) inset;
+}
+.verify .verify-content form button{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+.verify .verify-content form button:hover{
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
+    opacity: 0.8;
+    transition: all ease-in-out 0.5s;
+}
+@media screen and (max-width: 1400px) {
+    .verify .verify-content{
+        width: 55%;        
+    }    
+}
+@media screen and (max-width: 1200px) {
+    .verify .verify-content{
+        width: 60%;        
+    }    
+}
+@media screen and (max-width: 991px) {
+    .verify .verify-content{
+        width: 70%;        
+    }    
+}
+@media screen and (max-width: 767px) {
+    .verify .verify-content{
+        width: 90%;        
+    }    
+}
+@media screen and (max-width: 512px) {
+    .verify .verify-content{
+        width: 100%;        
+    }    
+}

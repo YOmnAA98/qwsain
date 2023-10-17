@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -7,8 +7,14 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
   isVisible = true;  
-}
 
-// $(window).scroll(function() {
-//   $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
-// });
+  // @HostListener('window:scroll', [$event])
+  // onWindowScroll(e:any){
+  //   if(e.target['scrollingElement'].scrollTop < 100){
+  //     document.getElementsByClassName("header")[0].classList.remove('h-shadow');
+  //   }
+  //   else{
+  //     document.getElementsByClassName("header")[0].classList.remove('h-shadow');
+  //   }
+  // }
+}

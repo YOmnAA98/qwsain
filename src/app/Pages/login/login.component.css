@@ -1,28 +1,64 @@
 .login{
-    height: 100vh;    
-    background: linear-gradient(90deg, var(--light-color) 50%, var(--secondary-color) 50%);
+    margin: 100px 0px;
 }
-.login .login-info form i{
-    font-size: 90px;
-    color: var(--white-color);
+.login .login-content{
+    width: 50%;
+    margin: auto;
 }
-.login .login-info form h4{
-     color: var(--white-color);
+.login .login-content form h3{
+     color: var(--dark-text);
      font-weight: bold;
 }
-.login .login-info form input{
-    width: 100%;
+.login .login-content form p{
+    font-size: 18px;
 }
-.login .login-info form label{
+.login .login-content form a{
+    color: var(--primary-color);
+    font-weight: bold;
+}
+.login .login-content form a:hover{
+    text-decoration: underline 2px var(--primary-color);
+}
+.login .login-content form input{
+    width: 100%;    
+}
+.login .login-content form input:focus{
+    border: 1px solid var(--primary-color);
+}
+.login .login-content form label{
     color: var(--primary-color);    
 }
-.login .login-info form button{
-    background-color: var(--white-color);
-    color: var(--primary-color);
+.login .login-content form button{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+.login .login-content form button:hover{
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
+    opacity: 0.8;
+    transition: all ease-in-out 0.5s;
+}
+@media screen and (max-width: 1400px) {
+    .login .login-content{
+        width: 55%;        
+    }    
+}
+@media screen and (max-width: 1200px) {
+    .login .login-content{
+        width: 60%;        
+    }    
+}
+@media screen and (max-width: 991px) {
+    .login .login-content{
+        width: 70%;        
+    }    
 }
 @media screen and (max-width: 767px) {
-    .login{
-        height: auto;    
-        background: linear-gradient(0deg, var(--light-color) 50%, var(--secondary-color) 50%);
-    }   
+    .login .login-content{
+        width: 90%;        
+    }    
+}
+@media screen and (max-width: 512px) {
+    .login .login-content{
+        width: 100%;        
+    }    
 }

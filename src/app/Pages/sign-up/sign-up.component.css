@@ -1,0 +1,64 @@
+.signup{
+    margin: 100px 0px;
+}
+.signup .signup-content{
+    width: 50%;
+    margin: auto;
+}
+.signup .signup-content form h3{
+     color: var(--dark-text);
+     font-weight: bold;
+}
+.signup .signup-content form p{
+    font-size: 18px;
+}
+.signup .signup-content form a{
+    color: var(--primary-color);
+    font-weight: bold;
+}
+.signup .signup-content form a:hover{
+    text-decoration: underline 2px var(--primary-color);
+}
+.signup .signup-content form input{
+    width: 100%;
+}
+.signup .signup-content form input:focus{
+    border: 1px solid var(--primary-color);
+}
+.signup .signup-content form label{
+    color: var(--primary-color);    
+}
+.signup .signup-content form button{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+.signup .signup-content form button:hover{
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
+    opacity: 0.8;
+    transition: all ease-in-out 0.5s;
+}
+@media screen and (max-width: 1400px) {
+    .signup .signup-content{
+        width: 55%;        
+    }    
+}
+@media screen and (max-width: 1200px) {
+    .signup .signup-content{
+        width: 60%;        
+    }    
+}
+@media screen and (max-width: 991px) {
+    .signup .signup-content{
+        width: 70%;        
+    }    
+}
+@media screen and (max-width: 767px) {
+    .signup .signup-content{
+        width: 90%;        
+    }    
+}
+@media screen and (max-width: 512px) {
+    .signup .signup-content{
+        width: 100%;        
+    }    
+}
