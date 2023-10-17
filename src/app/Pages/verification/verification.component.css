@@ -56,10 +56,18 @@
 @media screen and (max-width: 767px) {
     .verify .verify-content{
         width: 90%;        
-    }    
+    }   
+    .verify .verify-content form input{
+        width: 12%;        
+    } 
 }
 @media screen and (max-width: 512px) {
     .verify .verify-content{
         width: 100%;        
-    }    
+    }        
+}
+@media screen and (max-width: 440px) {    
+    .verify .verify-content form input{
+        width: auto;    
+    } 
 }
