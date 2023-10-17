@@ -3,6 +3,8 @@
 }
 .login .login-content{
     width: 50%;
+    text-align: center;
+    box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.2);
     margin: auto;
 }
 .login .login-content form h3{
@@ -19,16 +21,16 @@
 .login .login-content form a:hover{
     text-decoration: underline 2px var(--primary-color);
 }
-.login .login-content form .input-group{
+.login .login-content form .password{
     position: relative;
 }
-.login .login-content form .input-group button{
+.login .login-content form .password button{
     position: absolute;
     left: 0px;
     top: 10px;
     z-index: 10;    
 }
-.login .login-content form .input-group button:focus{
+.login .login-content form button:focus{
     border: 1px solid transparent;    
 }
 .login .login-content form input:focus{
@@ -58,16 +60,8 @@
 }
 @media screen and (max-width: 991px) {
     .login .login-content{
-        width: 70%;        
-    }    
-}
-@media screen and (max-width: 767px) {
-    .login .login-content{
-        width: 90%;        
-    }    
-}
-@media screen and (max-width: 512px) {
-    .login .login-content{
-        width: 100%;        
+        width: auto;
+        text-align: right;
+        box-shadow: none;
     }    
 }

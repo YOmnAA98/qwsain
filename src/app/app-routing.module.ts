@@ -1,5 +1,6 @@
 import { NgModule, Component } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { CodeInputModule } from 'angular-code-input';
 import { HomeComponent } from './Pages/HomePage/home/home.component';
 import { AboutComponent } from './Pages/about/about.component';
 import { ContactUsComponent } from './Pages/contact-us/contact-us.component';
@@ -44,7 +45,12 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes),
+    CodeInputModule.forRoot({
+      codeLength: 6,
+      isCharsCode: false,
+      code: '123456'
+    })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

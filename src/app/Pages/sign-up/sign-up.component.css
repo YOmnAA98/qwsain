@@ -3,6 +3,8 @@
 }
 .signup .signup-content{
     width: 50%;
+    text-align: center;
+    box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.2);
     margin: auto;
 }
 .signup .signup-content form h3{
@@ -19,16 +21,16 @@
 .signup .signup-content form a:hover{
     text-decoration: underline 2px var(--primary-color);
 }
-.signup .signup-content form .input-group{
+.signup .signup-content form .password{
     position: relative;
 }
-.signup .signup-content form .input-group button{
+.signup .signup-content form .password button{
     position: absolute;
     left: 0px;
     top: 10px;
     z-index: 10;    
 }
-.signup .signup-content form .input-group button:focus{
+.signup .signup-content form .password button:focus{
     border: 1px solid transparent;    
 }
 .signup .signup-content form input:focus{
@@ -46,28 +48,10 @@
     opacity: 0.8;
     transition: all ease-in-out 0.5s;
 }
-@media screen and (max-width: 1400px) {
-    .signup .signup-content{
-        width: 55%;        
-    }    
-}
-@media screen and (max-width: 1200px) {
-    .signup .signup-content{
-        width: 60%;        
-    }    
-}
 @media screen and (max-width: 991px) {
     .signup .signup-content{
-        width: 70%;        
-    }    
-}
-@media screen and (max-width: 767px) {
-    .signup .signup-content{
-        width: 90%;        
-    }    
-}
-@media screen and (max-width: 512px) {
-    .signup .signup-content{
-        width: 100%;        
+        width: auto;   
+        text-align: right;     
+        box-shadow: none;
     }    
 }

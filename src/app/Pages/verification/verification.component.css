@@ -3,6 +3,8 @@
 }
 .verify .verify-content{
     width: 50%;
+    text-align: center;
+    box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.2);
     margin: auto;
 }
 .verify .verify-content form h3{
@@ -18,7 +20,7 @@
     font-weight: bold;
 }
 .verify .verify-content form input{
-    width: 10%;
+    width: 50px;
     line-height: 80px;
     text-align: center;
     font-size: 30px;       
@@ -38,36 +40,25 @@
     opacity: 0.8;
     transition: all ease-in-out 0.5s;
 }
-@media screen and (max-width: 1400px) {
-    .verify .verify-content{
-        width: 55%;        
-    }    
-}
-@media screen and (max-width: 1200px) {
-    .verify .verify-content{
-        width: 60%;        
-    }    
-}
 @media screen and (max-width: 991px) {
     .verify .verify-content{
-        width: 70%;        
-    }    
+        width: auto;
+        text-align: right;
+        box-shadow: none;
+    }      
 }
-@media screen and (max-width: 767px) {
-    .verify .verify-content{
-        width: 90%;        
-    }   
+@media screen and (max-width: 492px) {    
     .verify .verify-content form input{
-        width: 12%;        
+        width: 45px;    
     } 
 }
-@media screen and (max-width: 512px) {
-    .verify .verify-content{
-        width: 100%;        
-    }        
-}
-@media screen and (max-width: 440px) {    
+@media screen and (max-width: 462px) {    
     .verify .verify-content form input{
-        width: auto;    
+        width: 40px;              
+    } 
+}
+@media screen and (max-width: 432px) {    
+    .verify .verify-content form input{
+        width: auto;        
     } 
 }

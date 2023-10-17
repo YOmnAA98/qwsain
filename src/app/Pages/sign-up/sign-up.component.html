@@ -1,7 +1,7 @@
 <section id="signup" class="signup d-flex align-items-md-center" name="signup">
     <div class="container-xl">
-        <div class="signup-content shadow-lg p-5">
-            <form class="text-center" action="/home">                    
+        <div class="signup-content p-5">
+            <form action="/home">                    
                 <h3>أنشىء حسابك المجاني</h3>
                 <p class="py-3">هل لديك حساب على قوسين؟ <a routerLink="/login">تسجيل الدخول</a></p>
                 
@@ -17,14 +17,14 @@
                     <input type="email" class="form-control rounded-0 shadow-none" id="email" placeholder="البريد الإلكتروني" name="email"  autocomplete="email" required>
                     <label for="email">البريد الإلكتروني</label>
                   </div>
-                  <div class="form-floating input-group my-3">
+                  <div class="form-floating password my-3">
                     <input type="password" [type]="fieldPasswordType ? 'text' : 'password'" class="form-control rounded-0 shadow-none" id="pwd" placeholder="كلمة المرور" name="pwd" autocomplete="new-password" required>
                     <button class="btn" type="button" (click)="showHidePassword()">
                       <i class="bi" [ngClass]="{'bi-eye-slash': !fieldPasswordType, 'bi-eye': fieldPasswordType}"></i>                      
                     </button>
                     <label for="pwd">كلمة المرور</label>
                   </div>                   
-                  <div class="form-floating input-group my-3">
+                  <div class="form-floating password my-3">
                     <input type="password" [type]="fieldConfirmPasswordType ? 'text' : 'password'" class="form-control rounded-0 shadow-none" id="v-pwd" placeholder="تأكيد كلمة المرور" name="v-pwd" autocomplete="new-password" required>
                     <button class="btn" type="button" (click)="showHideConfirmPassword()">
                       <i class="bi" [ngClass]="{'bi-eye-slash': !fieldConfirmPasswordType, 'bi-eye': fieldConfirmPasswordType}"></i>                      

@@ -1,7 +1,7 @@
 <section id="login" class="login d-flex align-items-md-center" name="login">
     <div class="container-xl">
-        <div class="login-content shadow-lg p-5">
-            <form class="text-center" action="/home">                    
+        <div class="login-content p-5">
+            <form action="/home">                    
                 <h3>سجل الدخول لحسابك</h3>
                 <p class="py-3">ليس لديك حساب على قوسين؟ <a routerLink="/sign-up">أنشىء حسابك</a></p>
 
@@ -10,7 +10,7 @@
                     <label for="email">البريد الإلكتروني</label>
                   </div>
                   
-                  <div class="form-floating input-group my-3">
+                  <div class="form-floating password my-3">
                     <input [type]="fieldTextType ? 'text' : 'password'" type="password" class="form-control rounded-0 shadow-none" id="pwd" placeholder="كلمة المرور" name="pswd" autocomplete="new-password" required>
                     <button class="btn" type="button" (click)="showHidePassword()">
                         <i class="bi" [ngClass]="{'bi-eye-slash': !fieldTextType, 'bi-eye': fieldTextType}"></i>                        
@@ -20,7 +20,7 @@
                   <div class="text-start">
                     <a routerLink="/forget-password">هل نسيت كلمة السر؟</a>
                   </div>
-                  <button type="submit" class="btn rounded-0" disabled>تسجيل الدخول</button>
+                  <button type="submit" class="btn rounded-0 mt-3" disabled>تسجيل الدخول</button>
             </form>            
         </div>
     </div>
