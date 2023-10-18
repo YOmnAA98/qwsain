@@ -7,14 +7,4 @@ import { Component, HostListener } from '@angular/core';
 })
 export class HeaderComponent {
   isVisible = false;  
-
-  // @HostListener('window:scroll', [$event])
-  // onWindowScroll(e:any){
-  //   if(e.target['scrollingElement'].scrollTop < 100){
-  //     document.getElementsByClassName("header")[0].classList.remove('h-shadow');
-  //   }
-  //   else{
-  //     document.getElementsByClassName("header")[0].classList.remove('h-shadow');
-  //   }
-  // }
 }

@@ -19,7 +19,7 @@
     font-weight: bold;
 }
 .signup .signup-content form a:hover{
-    text-decoration: underline 2px var(--primary-color);
+    color: var(--dark-color);
 }
 .signup .signup-content form .password{
     position: relative;

@@ -19,6 +19,9 @@
     color: var(--primary-color);
     font-weight: bold;
 }
+.verify .verify-content form a:hover{
+    color: var(--dark-color);
+}
 .verify .verify-content form input{
     width: 50px;
     line-height: 80px;

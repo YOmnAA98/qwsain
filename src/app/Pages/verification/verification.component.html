@@ -1,10 +1,12 @@
 <section id="verify" class="verify d-flex align-items-md-center" name="verify">
     <div class="container-xl">
-        <div class="verify-content p-5">
-            <form action="/home">                    
-                <h3>تأكيد حسابك</h3>
-                <p class="py-3">أدخل الرقم المكون من 6 أرقام الذي تم إرساله إلى بريدك الإلكتروني</p>
-                <div class="row row-cols-6 d-flex justify-content-end justify-content-lg-center mb-4" dir="ltr">
+        <div class="verify-content px-sm-3 p-lg-5">
+            <form action="/home" class="text-center">                     
+                <div class="text-center">
+                    <h3>تأكيد حسابك</h3>
+                    <p class="py-3">أدخل الرقم المكون من 6 أرقام الذي تم إرساله إلى بريدك الإلكتروني</p>
+                </div>
+                <div class="row row-cols-6 d-flex justify-content-center mb-4" dir="ltr">
                     <input type="text" class="form-control rounded-0 m-2" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
                     <input type="text" class="form-control rounded-0 m-2" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
                     <input type="text" class="form-control rounded-0 m-2" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
@@ -16,10 +18,10 @@
                     [codeLength]="6"
                     (codeChanged)="onCodeChanged($event)"
                     (codeCompleted)="onCodeCompleted($event)">
-                </code-input> -->
-                <a routerLink="">أرسل الكود مرة أخرى</a>
-                <button type="submit" class="btn d-block m-auto rounded-0 my-3" disabled>تأكيد الحساب</button>
-            </form>            
+                </code-input> -->                
+                <button type="submit" class="btn d-block m-auto my-3 py-2 rounded-pill w-100" disabled>تأكيد الحساب</button>
+                <a routerLink="">لم تتلق الرمز ؟ إعادة إرسال</a>
+            </form>
         </div>
     </div>
 </section>

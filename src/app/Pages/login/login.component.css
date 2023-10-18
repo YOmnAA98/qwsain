@@ -19,7 +19,7 @@
     font-weight: bold;
 }
 .login .login-content form a:hover{
-    text-decoration: underline 2px var(--primary-color);
+    color: var(--dark-color);
 }
 .login .login-content form .password{
     position: relative;

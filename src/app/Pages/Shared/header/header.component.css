@@ -1,69 +1,91 @@
 .header{
     background: var(--white-color);    
 }
-/* .h-shadow{
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
-} */
-.navbar a.navbar-brand{
+.header a.navbar-brand{
     font-size: 30px;
     color: var(--primary-color);    
 }
-.navbar .navbar-toggler span i{
+.header .navbar-toggler span i{
     color: var(--dark-text);
     font-size: 40px;
 }
-.navbar .navbar-toggler span i:hover{
+.header .navbar-toggler span i:hover{
     color: var(--primary-color);
 }
-.navbar .navbar-toggler:focus{
+.header .navbar-toggler:focus{
     box-shadow: none;
 }
-.navbar .nav-link{
-    color: var(--dark-text);    
+.header .navbar-nav .nav-link{
+    color: var(--dark-text);   
 }
-.navbar .nav-link:hover{
+.header .navbar-nav .nav-link:hover{
     color: var(--primary-color);
 }
-.navbar .show{
+.header .show{
     display: none;    
 }
-.navbar .navbar-account a.sign-up, .navbar .navbar-account a.login:hover{
+.header .navbar-account a{
+    font-weight: bold;
+}
+.header .navbar-account a.sign-up{
     background-color: var(--primary-color);
     color: var(--white-color);      
-    opacity: 0.8;
 }
-.navbar .navbar-account a.login{
+.header .navbar-account a.login{
     border: 1px solid var(--dark-text);
 }
-.navbar .navbar-account a.login:hover{
+.header .navbar-account a.login:hover{
     border: 1px solid transparent;
+    color: var(--white-color);
 }
-.navbar .navbar-account a.sign-up:hover, .navbar .navbar-account a.login:hover{
-    opacity: 1;
+.header .navbar-account a.sign-up:hover, .header .navbar-account a.login:hover{
+    background-color: var(--dark-color);
 }
-.navbar .navbar-account .profile span{
-    color: var(--primary-color);
+.header .navbar-account .profile span{
+    color: var(--dark-text);
 }
-.navbar .navbar-account .profile i{
+.header .navbar-account .profile i{
     font-size: 20px;    
 }
-.navbar .navbar-account .profile .dropdown-menu{
+.header .navbar-account .profile .dropdown-menu{
     background-color: var(--white-color);
 }
-.navbar .navbar-account .profile .dropdown-menu .dropdown-item{
-    color: var(--primary-color);
+.header .navbar-account .profile .dropdown-menu .dropdown-item{
+    color: var(--dark-text);
     margin: 3px 0px;
 }
-@media screen and (max-width: 991px) {    
-    .navbar .show{
+@media screen and (max-width: 991px) {       
+    .header .offcanvas-header button i{
+        font-size: 25px;        
+    }
+    .header .offcanvas-header button:focus{
+        border: 1px solid transparent;                
+    }
+    .header .navbar-nav .nav-link{
+        font-size: 16px;
+    }   
+    .header .show{
         display: inline-block;
         opacity: 1;
         font-size: 18px;
         vertical-align: middle;
     }
-    /* .navbar .navbar-account a.sign-up:hover, .navbar .navbar-account a.login:hover{
+    .header .navbar-account a.sign-up, .header .navbar-account a.login{
         background-color: transparent;
-        color: var(--primary-color);
+        color: var(--dark-text);
         border: 1px solid transparent;
-    } */
+        opacity: 1;
+        display: block;
+        text-align: right;
+        font-size: 16px; 
+        font-weight: 500;
+        padding: 5px;
+    }
+    .header .navbar-account a.sign-up i, .header .navbar-account a.login i{
+        font-size: 20px;
+    }
+    .header .navbar-account a.sign-up:hover, .header .navbar-account a.login:hover{
+        color: var(--primary-color);
+        background-color: transparent;
+    }    
 }
