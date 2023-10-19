@@ -4,11 +4,11 @@
     src: url(./assets/fonts/Tajawal-Regular.ttf);
 }
 :root{
-    --primary-color: #46ACA7;
-    --secondary-color: #8DDEDA;
-    --dark-color: #3F9A96;
-    --semi-color: #C6EFED;
-    --light-color: #EDF8F7;
+    --primary-color: #007D6E;
+    --secondary-color: #7EBFBC;
+    --dark-color: #055c4c;
+    --semi-color: #D7ECEF;
+    --light-color: #EDF8FA;
     --light-bg: #F8F9FA;    
     --text-color: #999999;
     --dark-text: #555555;
