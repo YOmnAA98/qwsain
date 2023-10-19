@@ -1,7 +1,17 @@
-/* right side */
 .courses{
     background: var(--light-bg);
 }
+.courses .courses-title p{
+    font-size: 20px;
+}
+.courses .courses-title p a{
+    color: var(--dark-text);
+}
+.courses .courses-title p a:hover ,.courses .courses-title p span{
+    color: var(--primary-color);
+}
+
+/* right side */
 .courses .right-side .filter, .courses .left-side .info{
     background-color: var(--white-color);        
 }
@@ -33,15 +43,26 @@
     display: none;
 }
 /* left side */
-.courses .left-side .course img{
+.courses .left-side .course .course-photo img{
     width: 100%;
-    height: 200px;
+    height: 170px;
+    object-fit: cover;
 }
-.courses .left-side .course h4{
+.courses .left-side .course .course-text h4{
     color: var(--dark-text);
 }
-.courses .left-side .course p{
+.courses .left-side .course .course-text p{
     color: var(--text-color);
+}
+.courses .left-side .course .course-info .info{
+    border-top: 1px solid var(--gray-color);
+}
+.courses .left-side .course .course-info small{
+    color: var(--text-color);
+}
+.courses .left-side .course .course-info small i{
+    color: var(--primary-color);
+    font-size: 15px;
 }
 .courses .left-side .pagination li a{    
     color: var(--dark-text);    
@@ -85,8 +106,8 @@
         width: 270px;
     } 
 }
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 1256px) {
     .courses .left-side .course{
-        width: 300px;
+        width: 260px;
     }   
 }

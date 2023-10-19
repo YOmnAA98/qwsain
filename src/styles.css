@@ -23,8 +23,7 @@
 }
 /* common styles */
 a{
-    text-decoration: none;  
-    color: var(--white-color);  
+    text-decoration: none;      
 }
 h2{    
     font-weight: bold;

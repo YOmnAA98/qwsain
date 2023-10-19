@@ -5,16 +5,20 @@
     color: var(--white-color);
     font-weight: bold;
 }
-.footer .content ul li{    
-    background: none;
-}
 .footer .content .logo p{
     width: 200px;
 }
+
 .footer .content h6{
     color: var(--white-color);
     font-size: 18px;
     font-weight: bold;
+}
+.footer .content ul li{
+    background: none;
+}
+.footer .content ul li a{
+    color: var(--white-color);
 }
 .footer .content .media .media-icons{
     padding: 0px;

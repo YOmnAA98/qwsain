@@ -2,10 +2,6 @@
     padding: 100px 0px;
     background: var(--light-color);
 }
-.home-courses .courses-content .course:hover{
-    transform: scale(1.05, 1.05);
-    transition: all ease-in-out 0.5s;
-}
 .home-courses .courses-title h2{
     color: var(--dark-text);
 }
@@ -15,9 +11,12 @@
     margin: 3px auto;    
     width: 5%;
     height: 3px;
-    background: var(--dark-color);
+    background: var(--primary-color);
 }
-
+.home-courses .courses-content .course:hover{
+    transform: scale(1.05, 1.05);
+    transition: all ease-in-out 0.5s;
+}
 .home-courses .courses-content .course .course-photo img{
     width: 100%;
     height: 175px;
