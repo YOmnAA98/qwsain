@@ -88,12 +88,15 @@
         width: 300px;
     } 
 }
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 992px) {
     .courses .right-side .level, .courses .right-side .catagory{
         display: none;
     }
     .courses .right-side .responsive{
         display: flex;
+    }
+    .courses .right-side .responsive select{
+        width: 100%;        
     }
     .courses .right-side .responsive select:focus{
         border: 1px solid var(--primary-color);
@@ -106,7 +109,7 @@
         width: 270px;
     } 
 }
-@media screen and (max-width: 1256px) {
+@media screen and (max-width: 1207px) {
     .courses .left-side .course{
         width: 260px;
     }   

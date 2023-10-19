@@ -14,7 +14,7 @@ import { AboutComponent } from './Pages/about/about.component';
 import { ContactUsComponent } from './Pages/contact-us/contact-us.component';
 import { CoursesComponent } from './Pages/courses/courses.component';
 import { ArticlesComponent } from './Pages/articles/articles.component';
-import { CourseDetailsComponent } from './Pages/course-details/course-details.component';
+import { CourseTutorialComponent } from './Pages/course-tutorial/course-tutorial.component';
 import { ArticleDetailsComponent } from './Pages/article-details/article-details.component';
 import { DictionaryComponent } from './Pages/dictionary/dictionary.component';
 import { QuestionsComponent } from './Pages/questions/questions.component';
@@ -41,7 +41,7 @@ import { TermsAndConditionsComponent } from './Pages/terms-and-conditions/terms-
     ContactUsComponent,           
     CoursesComponent,
     ArticlesComponent,
-    CourseDetailsComponent,
+    CourseTutorialComponent, 
     ArticleDetailsComponent,
     QuestionsComponent,       
     SignUpComponent,
@@ -50,7 +50,7 @@ import { TermsAndConditionsComponent } from './Pages/terms-and-conditions/terms-
     ForgetPasswordComponent,
     ResetPasswordComponent,    
     PrivacyPolicyComponent,
-    TermsAndConditionsComponent,        
+    TermsAndConditionsComponent,           
   ],
   imports: [
     BrowserModule,

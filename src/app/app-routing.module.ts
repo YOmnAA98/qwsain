@@ -5,7 +5,7 @@ import { HomeComponent } from './Pages/HomePage/home/home.component';
 import { AboutComponent } from './Pages/about/about.component';
 import { ContactUsComponent } from './Pages/contact-us/contact-us.component';
 import { CoursesComponent } from './Pages/courses/courses.component';
-import { CourseDetailsComponent } from './Pages/course-details/course-details.component';
+import { CourseTutorialComponent } from './Pages/course-tutorial/course-tutorial.component';
 import { ArticlesComponent } from './Pages/articles/articles.component';
 import { ArticleDetailsComponent } from './Pages/article-details/article-details.component';
 import { DictionaryComponent } from './Pages/dictionary/dictionary.component';
@@ -19,6 +19,7 @@ import { PrivacyPolicyComponent } from './Pages/privacy-policy/privacy-policy.co
 import { TermsAndConditionsComponent } from './Pages/terms-and-conditions/terms-and-conditions.component';
 
 
+
 const routes: Routes = [
   {path: '',   redirectTo: '/home', pathMatch: 'full' },
   {path: 'home', component: HomeComponent},
@@ -26,7 +27,7 @@ const routes: Routes = [
   {path: 'contact-us', component: ContactUsComponent},
 
   {path: 'courses', component: CoursesComponent},
-  {path: 'course', component: CourseDetailsComponent},
+  {path: 'course/tutorial', component: CourseTutorialComponent},
 
   {path: 'articles', component: ArticlesComponent},
   {path: 'article', component: ArticleDetailsComponent},
