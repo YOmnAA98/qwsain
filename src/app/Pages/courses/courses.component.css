@@ -1,0 +1,89 @@
+/* right side */
+.courses{
+    background: var(--light-bg);
+}
+.courses .right-side .filter{
+    background-color: var(--white-color);    
+    border-radius: 15px;
+}
+.courses .right-side .filter h5{
+    color: var(--dark-text);
+    font-weight: bold;
+}
+.courses .right-side .filter .level{
+    border-bottom: 1px solid var(--gray-color);
+}
+.courses .right-side .filter h6{
+    color: var(--text-color);
+    font-weight: bold;
+}
+.courses .right-side .filter label{
+    color: var(--dark-text);
+}
+.courses .right-side .filter input:checked{
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+.courses .right-side .filter input:active{
+    border: 1px solid var(--primary-color);
+}
+.courses .right-side .filter input:focus{
+    box-shadow: none;    
+}
+.courses .right-side .responsive{
+    display: none;
+}
+/* left side */
+.courses .left-side .info{
+    background-color: var(--white-color);
+    border-radius: 15px;
+}
+.courses .left-side .course img{
+    width: 100%;
+    height: 200px;
+}
+.courses .left-side .course h4{
+    color: var(--dark-text);
+}
+.courses .left-side .course p{
+    color: var(--text-color);
+}
+.courses .left-side .pagination li a{    
+    color: var(--dark-text);    
+    padding: 5px 15px;
+    background-color: transparent;
+}
+.courses .left-side .pagination li.active a, .courses .left-side .pagination li a:hover{
+    background-color: var(--primary-color);
+    color: var(--white-color);    
+    border-radius: 50%;    
+}
+.courses .left-side .pagination li a:focus{    
+    background-color: transparent;
+}
+.courses .left-side .pagination li a.controls{
+    background-color: transparent;    
+}
+.courses .left-side .pagination li a.controls:hover{
+    color: var(--primary-color);
+}
+
+@media screen and (max-width: 991px) {
+    .courses .right-side .level, .courses .right-side .catagory{
+        display: none;
+    }
+    .courses .right-side .responsive{
+        display: flex;
+    }
+    .courses .right-side .responsive select:focus{
+        border: 1px solid var(--primary-color);
+    }
+    .courses .right-side .responsive select option:hover, .courses .right-side .responsive select option:checked{        
+        background: var(--dark-color);
+    }
+}
+@media screen and (max-width: 575px) {
+    .courses .left-side .course{
+        width: 300px;
+    }   
+}

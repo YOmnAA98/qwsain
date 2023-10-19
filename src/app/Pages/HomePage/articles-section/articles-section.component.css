@@ -1,6 +1,6 @@
 .home-articles{    
     padding: 100px 0px;
-    background: var(--light-color);
+    background: var(--light-bg);
 }
 .home-articles .articles-content img{
     width: 100%;

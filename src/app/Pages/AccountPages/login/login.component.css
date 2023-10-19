@@ -48,16 +48,6 @@
     opacity: 0.8;
     transition: all ease-in-out 0.5s;
 }
-@media screen and (max-width: 1400px) {
-    .login .login-content{
-        width: 55%;        
-    }    
-}
-@media screen and (max-width: 1200px) {
-    .login .login-content{
-        width: 60%;        
-    }    
-}
 @media screen and (max-width: 991px) {
     .login .login-content{
         width: auto;

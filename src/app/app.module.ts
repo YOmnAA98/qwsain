@@ -7,7 +7,6 @@ import { HomeComponent } from './Pages/HomePage/home/home.component';
 import { HeaderComponent } from './Pages/Shared/header/header.component';
 import { FooterComponent } from './Pages/Shared/footer/footer.component';
 import { HeroSectionComponent } from './Pages/HomePage/hero-section/hero-section.component';
-import { AboutSectionComponent } from './Pages/HomePage/about-section/about-section.component';
 import { CoursesSectionComponent } from './Pages/HomePage/courses-section/courses-section.component';
 import { ArticlesSectionComponent } from './Pages/HomePage/articles-section/articles-section.component';
 import { QuestionSectionComponent } from './Pages/HomePage/question-section/question-section.component';
@@ -19,11 +18,11 @@ import { CourseDetailsComponent } from './Pages/course-details/course-details.co
 import { ArticleDetailsComponent } from './Pages/article-details/article-details.component';
 import { DictionaryComponent } from './Pages/dictionary/dictionary.component';
 import { QuestionsComponent } from './Pages/questions/questions.component';
-import { SignUpComponent } from './Pages/sign-up/sign-up.component';
-import { LoginComponent } from './Pages/login/login.component';
-import { VerificationComponent } from './Pages/verification/verification.component';
-import { ForgetPasswordComponent } from './Pages/forget-password/forget-password.component';
-import { ResetPasswordComponent } from './Pages/reset-password/reset-password.component';
+import { SignUpComponent } from './Pages/AccountPages/sign-up/sign-up.component';
+import { LoginComponent } from './Pages/AccountPages/login/login.component';
+import { VerificationComponent } from './Pages/AccountPages/verification/verification.component';
+import { ForgetPasswordComponent } from './Pages/AccountPages/forget-password/forget-password.component';
+import { ResetPasswordComponent } from './Pages/AccountPages/reset-password/reset-password.component';
 import { PrivacyPolicyComponent } from './Pages/privacy-policy/privacy-policy.component';
 import { TermsAndConditionsComponent } from './Pages/terms-and-conditions/terms-and-conditions.component';
 
@@ -33,8 +32,7 @@ import { TermsAndConditionsComponent } from './Pages/terms-and-conditions/terms-
     HomeComponent,
     HeaderComponent,
     FooterComponent,    
-    HeroSectionComponent,
-    AboutSectionComponent,        
+    HeroSectionComponent,          
     CoursesSectionComponent,
     ArticlesSectionComponent, 
     DictionaryComponent,   

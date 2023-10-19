@@ -10,11 +10,11 @@ import { ArticlesComponent } from './Pages/articles/articles.component';
 import { ArticleDetailsComponent } from './Pages/article-details/article-details.component';
 import { DictionaryComponent } from './Pages/dictionary/dictionary.component';
 import { QuestionsComponent } from './Pages/questions/questions.component';
-import { LoginComponent } from './Pages/login/login.component';
-import { SignUpComponent } from './Pages/sign-up/sign-up.component';
-import { VerificationComponent } from './Pages/verification/verification.component';
-import { ForgetPasswordComponent } from './Pages/forget-password/forget-password.component';
-import { ResetPasswordComponent } from './Pages/reset-password/reset-password.component';
+import { LoginComponent } from './Pages/AccountPages/login/login.component';
+import { SignUpComponent } from './Pages/AccountPages/sign-up/sign-up.component';
+import { VerificationComponent } from './Pages/AccountPages/verification/verification.component';
+import { ForgetPasswordComponent } from './Pages/AccountPages/forget-password/forget-password.component';
+import { ResetPasswordComponent } from './Pages/AccountPages/reset-password/reset-password.component';
 import { PrivacyPolicyComponent } from './Pages/privacy-policy/privacy-policy.component';
 import { TermsAndConditionsComponent } from './Pages/terms-and-conditions/terms-and-conditions.component';
 
