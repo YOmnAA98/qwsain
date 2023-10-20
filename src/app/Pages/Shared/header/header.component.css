@@ -54,6 +54,9 @@
     color: var(--dark-text);
     margin: 3px 0px;
 }
+header .navbar-toggler{
+    padding: 0px;
+}
 @media screen and (max-width: 991px) {       
     .header .offcanvas-header button i{
         font-size: 25px;        

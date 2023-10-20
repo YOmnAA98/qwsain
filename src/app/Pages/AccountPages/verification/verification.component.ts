@@ -10,9 +10,6 @@ export class VerificationComponent {
   onCodeChanged(code: string) {
   }
   
-  // this called only if user entered full code
   onCodeCompleted(code: string) {
   }
-  // @ViewChild('codeInput') codeInput !: CodeInputComponent;
-  // this.codeInput.reset();
 }

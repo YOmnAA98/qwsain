@@ -53,6 +53,9 @@
         box-shadow: none;
     }      
 }
+code-input{
+    margin-bottom: 40px;
+}
 @media screen and (max-width: 492px) {    
     .verify .verify-content form input{
         width: 45px;    
