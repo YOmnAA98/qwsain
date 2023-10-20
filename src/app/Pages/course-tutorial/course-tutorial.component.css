@@ -1,0 +1,16 @@
+.course-tutorial{
+    background: var(--light-bg);
+}
+.course-tutorial .course-tutorial-title p{
+    font-size: 20px;    
+}
+.course-tutorial .course-tutorial-title p a{
+    color: var(--dark-text);
+}
+.course-tutorial .course-tutorial-title p a:hover, .course-tutorial .course-tutorial-title p span{
+    color: var(--primary-color);
+}
+.course-tutorial .course-tutorial-title button i{
+    font-size: 30px;
+    color: var(--dark-text);
+}
