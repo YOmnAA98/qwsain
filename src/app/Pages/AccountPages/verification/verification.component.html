@@ -6,19 +6,11 @@
                     <h3>تأكيد حسابك</h3>
                     <p class="py-3">أدخل الرقم المكون من 6 أرقام الذي تم إرساله إلى بريدك الإلكتروني</p>
                 </div>
-                <div class="row row-cols-6 d-flex justify-content-center mb-4" dir="ltr">
-                    <input type="text" class="form-control rounded-0 m-2" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
-                    <input type="text" class="form-control rounded-0 m-2" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
-                    <input type="text" class="form-control rounded-0 m-2" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
-                    <input type="text" class="form-control rounded-0 m-2" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
-                    <input type="text" class="form-control rounded-0 m-2" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
-                    <input type="text" class="form-control rounded-0 m-2" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
-                </div>
-                <!-- <code-input [isCodeHidden]="true"
+                <code-input [isCodeHidden]="false"
                     [codeLength]="6"
                     (codeChanged)="onCodeChanged($event)"
                     (codeCompleted)="onCodeCompleted($event)">
-                </code-input> -->
+                </code-input>
                 <button type="submit" class="btn d-block m-auto my-3 py-2 rounded-pill w-100">تأكيد الحساب</button>
                 <p>لم تتلق الرمز ؟<a routerLink="">إعادة إرسال</a></p>
             </form>

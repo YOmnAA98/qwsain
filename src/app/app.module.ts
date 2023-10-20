@@ -1,3 +1,4 @@
+import { CodeInputModule } from 'angular-code-input';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -54,7 +55,8 @@ import { TermsAndConditionsComponent } from './Pages/terms-and-conditions/terms-
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CodeInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
