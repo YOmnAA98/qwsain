@@ -57,11 +57,20 @@
 header .navbar-toggler{
     padding: 0px;
 }
-@media screen and (max-width: 991px) {       
-    .header .offcanvas-header button i{
+@media screen and (max-width: 992px) {    
+    .header .navbar-collapse{
+        height: 100vh;
+        width: 264px;        
+        padding: 0px 15px;
+        position: absolute;
+        top: 0px;
+        right: -12px;
+        background-color: var(--white-color);                
+    }
+    .header .navbar-collapse button i{
         font-size: 25px;        
     }
-    .header .offcanvas-header button:focus{
+    .header .navbar-collapse button:focus{
         border: 1px solid transparent;                
     }
     .header .navbar-nav .nav-link{

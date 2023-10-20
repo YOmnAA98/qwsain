@@ -36,6 +36,6 @@
 }
 @media screen and (max-width: 767px) {
     .home-articles .articles-content .article{
-        width: 350px;
+        width: 280px;
     }    
 }

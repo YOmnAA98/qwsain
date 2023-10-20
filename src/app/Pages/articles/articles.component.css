@@ -1,0 +1,55 @@
+.articles{
+    background: var(--light-bg);
+}
+/* title */
+.articles .articles-title p{
+    font-size: 20px;    
+}
+.articles .articles-title p a{
+    color: var(--dark-text);
+}
+.articles .articles-title p a:hover, .articles .articles-title p span{
+    color: var(--primary-color);
+}
+/* filter */
+.articles .articles-filter form input:focus, .articles .articles-filter form button:focus{
+    border: 1px solid var(--primary-color);
+}
+.articles .articles-filter form button{    
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+.articles .articles-filter .newest-oldest button{
+    background-color: var(--white-color);
+    border: 1px solid var(--gray-color);
+    color: var(--primary-color);
+}
+.articles .articles-filter .newest-oldest button.active, .articles .articles-filter .newest-oldest button:hover{    
+    border: 1px solid var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+/* content */
+.articles .articles-content .article-box{
+    background-color: var(--white-color);
+}
+.articles .articles-content .article .article-text h4{
+    color: var(--dark-text);
+}
+.articles .articles-content .article .article-text p{
+    color: var(--text-color);
+    font-size: 18px;
+}
+.articles .articles-content .article .article-text a{    
+    color: var(--primary-color);
+}
+.articles .articles-content .article .article-text span{
+    background-color: var(--secondary-color);
+    font-size: 16px;
+}
+@media screen and (max-width: 992px) {
+    .articles{
+        background: var(--white-color);
+    }
+}
