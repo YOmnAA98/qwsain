@@ -6,53 +6,53 @@
         <span><i class="bi bi-list"></i></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <div class="d-lg-none d-flex justify-content-end pt-3">
-          <button type="button" class="btn" data-bs-dismiss="collapse" aria-label="Close" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="d-sm-none d-flex justify-content-end pt-3">
+          <button type="button" #closebutton class="btn" data-bs-dismiss="collapse" aria-label="Close" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="bi bi-x"></i>
           </button>
         </div>
         <ul class="navbar-nav m-auto mb-lg-2 mb-lg-0">
           <li class="nav-item px-2">
-            <a class="nav-link active" aria-current="page" routerLink="/home" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+            <a class="nav-link active" (click)="goToPage('/home')" aria-current="page">
               <i class="bi bi-house-door show me-2"></i> الرئيسية
             </a>
           </li>          
           <li class="nav-item px-2">
-            <a class="nav-link" routerLink="/courses" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+            <a class="nav-link" (click)="goToPage('/courses')">
               <i class="bi bi-book show me-2"></i> الدورات
             </a>
           </li>
           <li class="nav-item px-2">
-            <a class="nav-link" routerLink="/articles" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+            <a class="nav-link" (click)="goToPage('/articles')">
               <i class="bi bi-newspaper show me-2"></i> المقالات
             </a>
           </li>
           <li class="nav-item px-2">
-            <a class="nav-link" routerLink="/dictionary" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+            <a class="nav-link" (click)="goToPage('/dictionary')">
               <i class="bi bi-journals show me-2"></i> القاموس
             </a>
           </li>
           <li class="nav-item px-2">
-            <a class="nav-link" routerLink="/questions" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+            <a class="nav-link" (click)="goToPage('/questions')">
               <i class="bi bi-question-circle show me-2"></i> أسئلة
             </a>
           </li>
           <li class="nav-item px-2">
-            <a class="nav-link" routerLink="/about" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+            <a class="nav-link" (click)="goToPage('/about')">
               <i class="bi bi-info-circle show me-2"></i> معلومات عنا
             </a>
           </li>
           <li class="nav-item px-2">
-            <a class="nav-link" routerLink="/contact-us" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+            <a class="nav-link" (click)="goToPage('/contact-us')">
               <i class="bi bi-telephone show me-2"></i> تواصل معنا
             </a>
           </li>          
         </ul>
         <div class="navbar-account">
-          <a class="sign-up btn btn-sm rounded-pill px-lg-3 py-lg-2 me-lg-2 my-lg-1" routerLink="/sign-up" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+          <a class="sign-up btn btn-sm rounded-pill px-lg-3 py-lg-2 me-lg-2 my-lg-1" (click)="goToPage('/sign-up')">
             <i class="bi bi-person show me-2"></i> سجّل مجاناً 
           </a>
-          <a class="login btn btn-sm rounded-pill px-lg-3 py-lg-2 me-lg-2 my-lg-1" routerLink="/login" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+          <a class="login btn btn-sm rounded-pill px-lg-3 py-lg-2 me-lg-2 my-lg-1" (click)="goToPage('/login')">
             <i class="bi bi-box-arrow-in-left show me-2"></i> الدخول 
           </a>
           <div *ngIf="isVisible" id="profile" class="profile btn-group">

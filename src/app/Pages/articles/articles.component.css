@@ -31,9 +31,6 @@
 }
 
 /* content */
-.articles .articles-content .article-box{
-    background-color: var(--white-color);
-}
 .articles .articles-content .article .article-text h4{
     color: var(--dark-text);
 }

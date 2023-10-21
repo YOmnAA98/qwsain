@@ -57,16 +57,7 @@
 header .navbar-toggler{
     padding: 0px;
 }
-@media screen and (max-width: 992px) {    
-    .header .navbar-collapse{
-        height: 100vh;
-        width: 264px;        
-        padding: 0px 15px;
-        position: absolute;
-        top: 0px;
-        right: -12px;
-        background-color: var(--white-color);                
-    }
+@media screen and (max-width: 991.5px) {    
     .header .navbar-collapse button i{
         font-size: 25px;        
     }
@@ -100,4 +91,15 @@ header .navbar-toggler{
         color: var(--primary-color);
         background-color: transparent;
     }    
+}
+@media (max-width : 577px) {
+    .header .navbar-collapse{
+        height: 100vh;
+        width: 264px;        
+        padding: 0px 15px;
+        position: absolute;
+        top: 0px;
+        right: -12px;
+        background-color: var(--white-color);                
+    }
 }

@@ -13,6 +13,11 @@
     height: 3px;
     background: var(--primary-color);
 }
+.home-articles .articles-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
 .home-articles .articles-content .article:hover{
     transform: scale(1.05, 1.05);
     transition: all ease-in-out 0.5s;
@@ -34,8 +39,8 @@
     opacity: 0.8;
     transition: all ease-in-out 0.5s;
 }
-@media screen and (max-width: 767px) {
-    .home-articles .articles-content .article{
-        width: 280px;
-    }    
+@media (max-width: 768px) {
+    .home-articles .articles-content{
+        grid-template-columns: 1fr;
+    }
 }

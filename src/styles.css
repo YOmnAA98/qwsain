@@ -26,6 +26,9 @@
 a{
     text-decoration: none;      
 }
+a:hover{
+    cursor: pointer;
+}
 h2{    
     font-weight: bold;
 }
