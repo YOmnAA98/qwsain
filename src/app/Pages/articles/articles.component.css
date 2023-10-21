@@ -48,6 +48,26 @@
     background-color: var(--secondary-color);
     font-size: 16px;
 }
+
+.articles .articles-content .pagination li a{    
+    color: var(--dark-text);    
+    padding: 5px 15px;
+    background-color: transparent;    
+}
+.articles .articles-content .pagination li.active a, .articles .articles-content .pagination li a:hover{
+    background-color: var(--primary-color);
+    color: var(--white-color);    
+    border-radius: 50%;    
+}
+.articles .articles-content .pagination li a:focus{    
+    background-color: transparent;
+}
+.articles .articles-content .pagination li a.controls{
+    background-color: transparent;    
+}
+.articles .articles-content .pagination li a.controls:hover{
+    color: var(--primary-color);
+}
 @media screen and (max-width: 992px) {
     .articles{
         background: var(--white-color);
