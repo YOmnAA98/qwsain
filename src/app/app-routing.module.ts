@@ -50,7 +50,7 @@ const routes: Routes = [
     CodeInputModule.forRoot({
       codeLength: 6,
       isCharsCode: false,
-      code: '123456'
+      code: ''
     })],
   exports: [RouterModule]
 })

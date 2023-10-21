@@ -22,12 +22,11 @@
 .verify .verify-content form a:hover{
     color: var(--dark-color);
 }
-.verify .verify-content form input{
-    width: 50px;
-    line-height: 80px;
+
+.verify .verify-content form code-input{
     text-align: center;
-    font-size: 30px;       
-    box-shadow: 0px 0px 5px #ccc inset;
+    font-size: 28px;  
+    /* box-shadow: 0px 0px 5px #ccc inset; */
     transition: all ease-in-out 0.2s;
 }
 .verify .verify-content form input:focus{

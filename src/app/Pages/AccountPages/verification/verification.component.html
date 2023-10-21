@@ -6,7 +6,7 @@
                     <h3>تأكيد حسابك</h3>
                     <p class="py-3">أدخل الرقم المكون من 6 أرقام الذي تم إرساله إلى بريدك الإلكتروني</p>
                 </div>
-                <code-input [isCodeHidden]="false"
+                <code-input dir="ltr" [isCodeHidden]="false"
                     [codeLength]="6"
                     (codeChanged)="onCodeChanged($event)"
                     (codeCompleted)="onCodeCompleted($event)">
