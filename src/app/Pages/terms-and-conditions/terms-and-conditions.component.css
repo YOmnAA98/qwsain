@@ -1,0 +1,39 @@
+.terms-conditions .terms-conditions-title{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+.terms-conditions .terms-conditions-title i{
+    font-size: 50px;
+}
+
+.terms-conditions .terms-conditions-content .lists ol, .terms-conditions .terms-conditions-content .lists-content ol{
+    list-style-type: none;
+    padding: 0px;
+}
+.terms-conditions .terms-conditions-content .lists ol li{
+    padding: 5px 0px;
+}
+.terms-conditions .terms-conditions-content .lists ol li a{
+    font-size: 17px;
+}
+.terms-conditions .terms-conditions-content .lists ol li i{
+    background-color: var(--primary-color);
+    color: var(--white-color);    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    font-style: normal;
+}
+.terms-conditions .terms-conditions-content .lists-content ol li{
+    line-height: 1.8;
+    padding: 10px 0px;
+}
+.terms-conditions .terms-conditions-content .lists-content ol h5{
+    color: var(--primary-color);
+}
+.terms-conditions .terms-conditions-content .lists-content ol p{
+    color: var(--text-color);
+}
