@@ -15,16 +15,15 @@
 .courses .right-side .filter, .courses .left-side .info{
     background-color: var(--white-color);        
 }
-.courses .right-side .filter h5, .courses .left-side .info h3{
-    color: var(--dark-text);
-    font-weight: bold;
+.courses .right-side .filter h2{
+    font-size: 24px;
 }
 .courses .right-side .filter .level{
     border-bottom: 1px solid var(--gray-color);
 }
-.courses .right-side .filter h6{
+.courses .right-side .filter h4{
     color: var(--text-color);
-    font-weight: bold;
+    font-size: 18px;
 }
 .courses .right-side .filter label{
     color: var(--dark-text);
@@ -42,6 +41,11 @@
 .courses .right-side .responsive{
     display: none;
 }
+
+/* left side */
+.courses .left-side .info h1{
+    font-size: 32px;
+}
 .courses .left-side .course-boxes{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -52,11 +56,15 @@
     height: 170px;
     object-fit: cover;
 }
-.courses .left-side .course .course-text h4{
-    color: var(--dark-text);
+.courses .left-side .course .course-text h3{
+    font-size: 24px;
+    height: 29px;
+    overflow-y: hidden;
 }
 .courses .left-side .course .course-text p{
     color: var(--text-color);
+    height: 50px;
+    overflow-y: hidden;
 }
 .courses .left-side .course .course-info .info{
     border-top: 1px solid var(--gray-color);

@@ -4,79 +4,79 @@
             <p><a routerLink="/home">الرئيسية</a> / <span>الدورات</span></p>
         </div>
         <div class="courses-content row">
-            <aside class="right-side col-lg-3 py-3">
+            <aside class="right-side col-lg-3 my-3">
                 <div class="filter rounded-4 p-lg-4">
-                    <h5><i class="bi bi-search me-1"></i> تصفية البحث</h5>
-                    <form class="pt-2">
-                        <div class="level py-3">
-                            <h6>المستويات</h6>
+                    <h2><i class="bi bi-search me-1"></i> تصفية البحث</h2>
+                    <form class="pt-2" name="filter">
+                        <div class="level my-3 pb-3">
+                            <h4>المستويات</h4>
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                <label class="form-check-label" for="flexCheckDefault">
+                                <input class="form-check-input" type="checkbox" value="" id="checkbox1">
+                                <label class="form-check-label" for="checkbox1">
                                   أساسي
                                 </label>
                               </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                <label class="form-check-label" for="flexCheckDefault">
+                                <input class="form-check-input" type="checkbox" value="" id="checkbox2">
+                                <label class="form-check-label" for="checkbox2">
                                   مبتدئ
                                 </label>
                               </div>
                               <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                                <label class="form-check-label" for="flexCheckChecked">
+                                <input class="form-check-input" type="checkbox" value="" id="checkbox3">
+                                <label class="form-check-label" for="checkbox3">
                                   متوسط
                                 </label>
                               </div>
                               <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                                <label class="form-check-label" for="flexCheckChecked">
+                                <input class="form-check-input" type="checkbox" value="" id="checkbox4">
+                                <label class="form-check-label" for="checkbox4">
                                   متقدم
                                 </label>
                               </div>
                         </div>                        
-                        <div class="category py-3">
-                            <h6>التصنيفات</h6>
+                        <div class="category my-3">
+                            <h4>التصنيفات</h4>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                <label class="form-check-label" for="flexRadioDefault1">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="radio1">
+                                <label class="form-check-label" for="radio1">
                                   برمجة
                                 </label>
                               </div>
                               <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                <label class="form-check-label" for="flexRadioDefault1">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="radio2">
+                                <label class="form-check-label" for="radio2">
                                   بايثون
                                 </label>
                               </div>
                               <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                <label class="form-check-label" for="flexRadioDefault1">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="radio3">
+                                <label class="form-check-label" for="radio3">
                                   جافا
                                 </label>
                               </div>
                               <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
-                                <label class="form-check-label" for="flexRadioDefault2">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="radio4">
+                                <label class="form-check-label" for="radio4">
                                   حاسب آلي
                                 </label>
                               </div>
                               <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
-                                <label class="form-check-label" for="flexRadioDefault2">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="radio5">
+                                <label class="form-check-label" for="radio5">
                                   قواعد بيانات
                                 </label>
                               </div>
                               <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
-                                <label class="form-check-label" for="flexRadioDefault2">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="radio6">
+                                <label class="form-check-label" for="radio6">
                                   ذكاء اصطناعي
                                 </label>
                               </div>
                         </div>
                         <div class="responsive row row-cols-sm-2">
-                            <div class="res-level py-2">
-                                <select class="form-select shadow-none" aria-label="Default select">
+                            <div class="res-level my-2">
+                                <select class="form-select shadow-none" aria-label="Default select" name="level">
                                     <option selected hidden>المستويات</option>
                                     <option value="basic">أساسي</option>
                                     <option value="beginner">مبتدئ</option>
@@ -84,8 +84,8 @@
                                     <option value="advanced">متقدم</option>
                                 </select>
                             </div>
-                            <div class="res-category py-2">
-                                <select class="form-select shadow-none" aria-label="Default select">
+                            <div class="res-category my-2">
+                                <select class="form-select shadow-none" aria-label="Default select" name="category">
                                     <option selected hidden>التصنيفات</option>
                                     <option value="programming">برمجة</option>
                                     <option value="python">بايثون</option>
@@ -99,18 +99,18 @@
                     </form>
                 </div>
             </aside>
-            <section class="left-side col-lg-9 py-3">
+            <section class="left-side col-lg-9 my-3">
                 <div class="info rounded-4 px-lg-5 py-4">
-                    <h3><i class="bi bi-book me-2"></i> الدورات</h3>
+                    <h1><i class="bi bi-book me-2"></i> الدورات</h1>
                     <div class="course-boxes py-3">
-                        <div class="course py-2">
+                        <div class="course my-2">
                             <a routerLink="/course/tutorial">
                                 <div class="shadow rounded-4">
                                     <div class="course-photo">
                                         <img class="img-fluid rounded-top-4" src="../../../../assets/images/home images/course.jpg" alt="course-photo">
                                     </div>
                                     <div class="course-text bg-white px-3 pt-4 pb-2">
-                                        <h4>دورة ويب للمبتدئين</h4>
+                                        <h3>دورة ويب للمبتدئين</h3>
                                         <p>دورة ويب للمبتدئين دورة ويب</p>
                                     </div>
                                     <div class="course-info bg-white rounded-bottom-4 px-3 pb-4">
@@ -122,14 +122,14 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="course py-2">
+                        <div class="course my-2">
                             <a routerLink="/course/tutorial">
                                 <div class="shadow rounded-4">
                                     <div class="course-photo">
                                         <img class="img-fluid rounded-top-4" src="../../../../assets/images/home images/course.jpg" alt="course-photo">
                                     </div>
                                     <div class="course-text bg-white px-3 pt-4 pb-2">
-                                        <h4>دورة ويب للمبتدئين</h4>
+                                        <h3>دورة ويب للمبتدئين</h3>
                                         <p>دورة ويب للمبتدئين دورة ويب</p>                            
                                     </div>
                                     <div class="course-info bg-white rounded-bottom-4 px-3 pb-4">
@@ -141,14 +141,14 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="course py-2">
+                        <div class="course my-2">
                             <a routerLink="/course/tutorial">
                                 <div class="shadow rounded-4">
                                     <div class="course-photo">
                                         <img class="img-fluid rounded-top-4" src="../../../../assets/images/home images/course.jpg" alt="course-photo">
                                     </div>
                                     <div class="course-text bg-white px-3 pt-4 pb-2">
-                                        <h4>دورة ويب للمبتدئين</h4>
+                                        <h3>دورة ويب للمبتدئين</h3>
                                         <p>دورة ويب للمبتدئين دورة ويب</p>                            
                                     </div>
                                     <div class="course-info bg-white rounded-bottom-4 px-3 pb-4">
@@ -160,14 +160,14 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="course py-2">
+                        <div class="course my-2">
                             <a routerLink="/course/tutorial">
                                 <div class="shadow rounded-4">
                                     <div class="course-photo">
                                         <img class="img-fluid rounded-top-4" src="../../../../assets/images/home images/course.jpg" alt="course-photo">
                                     </div>
                                     <div class="course-text bg-white px-3 pt-4 pb-2">
-                                        <h4>دورة ويب للمبتدئين</h4>
+                                        <h3>دورة ويب للمبتدئين</h3>
                                         <p>دورة ويب للمبتدئين دورة ويب</p>                            
                                     </div>
                                     <div class="course-info bg-white rounded-bottom-4 px-3 pb-4">
@@ -179,14 +179,14 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="course py-2">
+                        <div class="course my-2">
                             <a routerLink="/course/tutorial">
                                 <div class="shadow rounded-4">
                                     <div class="course-photo">
                                         <img class="img-fluid rounded-top-4" src="../../../../assets/images/home images/course.jpg" alt="course-photo">
                                     </div>
                                     <div class="course-text bg-white px-3 pt-4 pb-2">
-                                        <h4>دورة ويب للمبتدئين</h4>
+                                        <h3>دورة ويب للمبتدئين</h3>
                                         <p>دورة ويب للمبتدئين دورة ويب</p>                            
                                     </div>
                                     <div class="course-info bg-white rounded-bottom-4 px-3 pb-4">
@@ -198,14 +198,14 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="course py-2">
+                        <div class="course my-2">
                             <a routerLink="/course/tutorial">
                                 <div class="shadow rounded-4">
                                     <div class="course-photo">
                                         <img class="img-fluid rounded-top-4" src="../../../../assets/images/home images/course.jpg" alt="course-photo">
                                     </div>
                                     <div class="course-text bg-white px-3 pt-4 pb-2">
-                                        <h4>دورة ويب للمبتدئين</h4>
+                                        <h3>دورة ويب للمبتدئين</h3>
                                         <p>دورة ويب للمبتدئين دورة ويب</p>                            
                                     </div>
                                     <div class="course-info bg-white rounded-bottom-4 px-3 pb-4">
@@ -234,4 +234,9 @@
                             </a>
                             </li>
                         </ul>
-                    </nav>                    
+                    </nav>
+                </div>
+            </section>
+        </div>
+    </div>
+</section>

@@ -20,6 +20,9 @@
 .footer .content ul li a{
     color: var(--white-color);
 }
+.footer .content .media .contact li a{
+    word-break: break-all;
+}
 .footer .content .media .media-icons{
     padding: 0px;
 }

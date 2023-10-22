@@ -31,8 +31,11 @@
 }
 
 /* content */
-.articles .articles-content .article .article-text h4{
-    color: var(--dark-text);
+.articles .articles-content h1{
+    font-size: 32px;
+}
+.articles .articles-content .article .article-text h2{
+    font-size: 28px;
 }
 .articles .articles-content .article .article-text p{
     color: var(--text-color);
@@ -42,8 +45,7 @@
     color: var(--primary-color);
 }
 .articles .articles-content .article .article-text span{
-    background-color: var(--secondary-color);
-    font-size: 16px;
+    color: var(--primary-color);
 }
 
 .articles .articles-content .pagination li a{    

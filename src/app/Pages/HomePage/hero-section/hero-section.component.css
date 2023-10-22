@@ -2,9 +2,8 @@
     /* background: var(--primary-color); */
     overflow-x: hidden;
 }
-.hero .title h2{
-    color: var(--primary-color);
-    font-size: 40px;    
+.hero .title h1{
+    color: var(--primary-color);    
 }
 .hero .title p{
     color: var(--text-color);

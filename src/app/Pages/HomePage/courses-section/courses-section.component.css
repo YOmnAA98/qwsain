@@ -28,11 +28,15 @@
     object-fit: cover;
 }
 
-.home-courses .courses-content .course .course-text h4{
-    color: var(--dark-text);
+.home-courses .courses-content .course .course-text h3{
+    font-size: 24px;
+    height: 29px;
+    overflow-y: hidden;
 }
 .home-courses .courses-content .course .course-text p{
     color: var(--text-color);
+    height: 50px;
+    overflow-y: hidden;
 }
 
 .home-courses .courses-content .course .course-info .info{

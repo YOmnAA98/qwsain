@@ -2,7 +2,7 @@
     padding: 100px 0px;
     background: var(--light-bg);
 }
-.home-articles .articles-title h2, .home-articles .articles-content .article  .article-text h4{
+.home-articles .articles-title h2{
     color: var(--dark-text);
 }
 .home-articles .articles-title h2::after{
@@ -27,8 +27,15 @@
     height: 235px;
     object-fit: cover;
 }
+.home-articles .articles-content .article  .article-text h3{
+    font-size: 24px;
+    height: 29px;
+    overflow-y: hidden;
+}
 .home-articles .articles-content .article .article-text p{
     color: var(--text-color);
+    height: 50px;
+    overflow-y: hidden;
 }
 .home-articles .articles-btn a{
     background: var(--primary-color);
