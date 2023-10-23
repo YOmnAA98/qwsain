@@ -2,13 +2,13 @@
     background: var(--light-bg);
 }
 /* title */
-.articles .articles-title p{
+.articles .articles-breadcrumb li{
     font-size: 20px;    
 }
-.articles .articles-title p a{
+.articles .articles-breadcrumb li a{
     color: var(--dark-text);
 }
-.articles .articles-title p a:hover, .articles .articles-title p span{
+.articles .articles-breadcrumb li a:hover, .articles .articles-breadcrumb li.active{
     color: var(--primary-color);
 }
 /* filter */

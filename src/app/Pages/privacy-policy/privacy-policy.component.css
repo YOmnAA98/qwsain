@@ -1,0 +1,17 @@
+.privacy-policy-hero .privacy-policy-title .breadcrumb li{
+    font-size: 20px;
+}
+.privacy-policy-hero .privacy-policy-title .breadcrumb li a{
+    color: var(--dark-color);
+}
+.privacy-policy-hero .privacy-policy-title .breadcrumb li a:hover,
+.privacy-policy-hero .privacy-policy-title .breadcrumb li.active{
+    color: var(--primary-color);
+}
+.privacy-policy-hero .privacy-policy-title h1{
+    font-size: 32px;
+}
+.privacy-policy-hero .privacy-policy-title p{
+    font-size: 18px;
+    color: var(--text-color);
+}

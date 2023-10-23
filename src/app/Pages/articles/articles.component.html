@@ -1,12 +1,17 @@
 <section id="articles" class="articles" name="articles">
     <div class="container-xl">
-        <div class="articles-title pt-5">
-            <p><a routerLink="/home">الرئيسية</a> / <span>المقالات</span></p>            
+        <div class="articles-breadcrumb pt-5">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a routerLink="/home">الرئيسية</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">المقالات</li>
+                </ol>
+            </nav>
         </div>
         <div class="articles-filter row d-flex justify-content-between">
             <form class="col-md-6 py-3" name="search">
                 <div class="input-group">
-                    <input type="search" class="form-control shadow-none" placeholder="ابحث عن المقال">
+                    <input type="search" class="form-control shadow-none" placeholder="ابحث عن المقال" name="search">
                     <button class="btn" type="submit"><i class="bi bi-search"></i></button>
                 </div>
             </form>

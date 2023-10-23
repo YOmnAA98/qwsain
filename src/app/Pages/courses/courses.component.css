@@ -1,13 +1,13 @@
 .courses{
     background: var(--light-bg);
 }
-.courses .courses-title p{
+.courses .courses-breadcrumb li{
     font-size: 20px;
 }
-.courses .courses-title p a{
+.courses .courses-breadcrumb li a{
     color: var(--dark-text);
 }
-.courses .courses-title p a:hover ,.courses .courses-title p span{
+.courses .courses-breadcrumb li a:hover ,.courses .courses-breadcrumb li.active{
     color: var(--primary-color);
 }
 

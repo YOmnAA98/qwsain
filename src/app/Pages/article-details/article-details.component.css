@@ -1,9 +1,81 @@
-h2{
+.article-details .article-details-breadcrumb li{
+    font-size: 20px;
+}
+.article-details .article-details-breadcrumb li a{
+    color: var(--dark-text);
+}
+.article-details .article-details-breadcrumb li a:hover,
+.article-details .article-details-breadcrumb li.active{
+    color: var(--primary-color);
+}
+
+/* right side */
+.article-details-content .right-side .article-content{
+    position: relative;
+}
+.article-details-content .right-side .article-content .related{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+}
+.article-details-content .right-side .article-content .related h5{
+    font-size: 16px;
+}
+.article-details-content .right-side .article-content .related p a{
+    color: var(--primary-color);
+    font-weight: bold;    
+}
+.article-details-content .right-side .article-content .related p a:hover,
+.article-details-content .right-side .article-content .topics .topic-links li a:hover{
+    color: var(--dark-text);
+}
+.article-details-content .right-side .article-content .topics h4{
+    font-size: 20px;
+    border-bottom: 2px solid var(--primary-color);
+}
+.article-details-content .right-side .article-content .topics .topic-links li a{
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 17px;
+}
+.article-details-content .right-side .article-content .topics .topic-content h2,
+.article-details-content .right-side .article-content .topics .topic-reference h2{
     font-size: 28px;
+}
+.article-details-content .right-side .article-content .topics .topic-content p{
+    font-size: 18px;
+    line-height: 1.8;
+}
+.article-details-content .right-side .article-content .topics .topic-reference h2{
+    border: 1px solid var(--gray-color);
+    border-bottom: 2px solid var(--primary-color);
+    cursor: pointer;
+}
+.article-details-content .right-side .article-content .topics .topic-useful h4{
+    font-size: 20px;
+    border: none;
+}
+.article-details-content .right-side .article-content .topics .topic-useful a{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    border: 2px solid var(--dark-text);
+    border-radius: 50%;
+    color: var(--dark-text);    
+    width: 45px;
+    height: 45px;
+    font-weight: bold;
+}
+.article-details-content .right-side .article-content .topics .topic-useful a.yes:hover{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border: 2px solid var(--primary-text);
+}
+.article-details-content .right-side .article-content .topics .topic-useful a.no:hover{
+    background-color: var(--dark-text);
+    color: var(--white-color);
+    border: 2px solid var(--dark-text);
 }
 h3{
     font-size: 24px;
-}
-h4{
-    font-size: 16px;
 }

@@ -1,0 +1,17 @@
+.terms-conditions-hero .terms-conditions-title .breadcrumb li{
+    font-size: 20px;
+}
+.terms-conditions-hero .terms-conditions-title .breadcrumb li a{
+    color: var(--dark-color);
+}
+.terms-conditions-hero .terms-conditions-title .breadcrumb li a:hover,
+.terms-conditions-hero .terms-conditions-title .breadcrumb li.active{
+    color: var(--primary-color);
+}
+.terms-conditions-hero .terms-conditions-title h1{
+    font-size: 32px;
+}
+.terms-conditions-hero .terms-conditions-title p{
+    font-size: 18px;
+    color: var(--text-color);
+}
