@@ -52,13 +52,13 @@
           <a class="sign-up btn btn-sm rounded-pill px-lg-3 py-lg-2 me-lg-2 my-lg-1" (click)="goToPage('/sign-up')">
             <i class="bi bi-person show me-2"></i> سجّل مجاناً 
           </a>
-          <a class="login btn btn-sm rounded-pill px-lg-3 py-lg-2 me-lg-2 my-lg-1" (click)="goToPage('/login')">
+          <a class="login btn btn-sm rounded-pill px-lg-3 py-lg-2 my-lg-1" (click)="goToPage('/login')">
             <i class="bi bi-box-arrow-in-left show me-2"></i> الدخول 
           </a>
-          <div *ngIf="isVisible" id="profile" class="profile btn-group">
+          <div *ngIf="isVisible" id="profile" class="profile btn-group ms-2">
             <span type="button" data-bs-toggle="dropdown" aria-expanded="false">
               <i class="bi bi-person-circle"></i>
-              يُمنى رأفت              
+              يُمنى             
             </span>
             <ul class="dropdown-menu border-0 shadow-lg px-3 py-4">              
               <li><a class="dropdown-item" routerLink="">تسجيل الخروج</a></li>              
@@ -67,69 +67,5 @@
         </div>
       </div>
     </nav>   
-
-    <!-- <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
-      <div class="offcanvas-header d-flex justify-content-end pb-0">
-        <button type="button" class="btn" data-bs-dismiss="offcanvas" aria-label="Close">
-          <i class="bi bi-x"></i>
-        </button>
-      </div>
-      <div class="offcanvas-body py-0">
-        <ul class="navbar-nav m-auto">
-          <li class="nav-item px-2">
-            <a class="nav-link active" aria-current="page" routerLink="/home">
-              <i class="bi bi-house-door show me-2"></i> الرئيسية
-            </a>
-          </li>          
-          <li class="nav-item px-2">
-            <a class="nav-link" routerLink="/courses">
-              <i class="bi bi-book show me-2"></i> الدورات
-            </a>
-          </li>
-          <li class="nav-item px-2">
-            <a class="nav-link" routerLink="/articles">
-              <i class="bi bi-newspaper show me-2"></i> المقالات
-            </a>
-          </li>
-          <li class="nav-item px-2">
-            <a class="nav-link" routerLink="/dictionary">
-              <i class="bi bi-journals show me-2"></i> القاموس
-            </a>
-          </li>
-          <li class="nav-item px-2">
-            <a class="nav-link" routerLink="/questions">
-              <i class="bi bi-question-circle show me-2"></i> أسئلة
-            </a>
-          </li>
-          <li class="nav-item px-2">
-            <a class="nav-link" routerLink="/about">
-              <i class="bi bi-info-circle show me-2"></i> معلومات عنا
-            </a>
-          </li>
-          <li class="nav-item px-2">
-            <a class="nav-link" routerLink="/contact-us">
-              <i class="bi bi-telephone show me-2"></i> تواصل معنا
-            </a>
-          </li>          
-        </ul>
-        <div class="navbar-account">
-          <a class="sign-up btn btn-lg-sm rounded-pill me-lg-2 my-lg-1" routerLink="/sign-up">
-            <i class="bi bi-person show me-2"></i> سجّل مجاناً 
-          </a>
-          <a class="login btn btn-lg-sm rounded-pill me-lg-2 my-lg-1" routerLink="/login">
-            <i class="bi bi-box-arrow-in-left show me-2"></i> الدخول 
-          </a>
-          <div *ngIf="isVisible" id="profile" class="profile btn-group">
-            <span type="button" class="ms-2" data-bs-toggle="dropdown" aria-expanded="false">
-              <i class="bi bi-person-circle me-2"></i>
-              يُمنى رأفت              
-            </span>
-            <ul class="dropdown-menu border-0 shadow-lg px-3 py-4">              
-              <li><a class="dropdown-item" routerLink="">تسجيل الخروج</a></li>              
-            </ul>
-          </div>          
-        </div>
-      </div>
-    </div> -->
   </div>
 </header>

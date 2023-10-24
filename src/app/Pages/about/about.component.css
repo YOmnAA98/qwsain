@@ -1,0 +1,43 @@
+.about .about-breadcrumb li{
+    font-size: 20px;
+}
+.about .about-breadcrumb li a{
+    color: var(--dark-text);
+}
+.about .about-breadcrumb li a:hover,
+.about .about-breadcrumb li.active{
+    color: var(--primary-color);
+}
+
+.about .about-title h1{
+    font-size: 32px;
+}
+.about .about-title p{
+    font-size: 18px;
+    color: var(--text-color);
+}
+
+.about .about-features{
+    margin: 100px 0px;
+}
+.about .about-features .feature i{
+    font-size: 40px;
+    color: var(--dark-text);
+}
+.about .about-features .feature h2{
+    font-size: 28px;
+    color: var(--primary-color);
+}
+.about .about-features .feature p{
+    color: var(--text-color);
+    font-size: 17px;
+}
+
+.about .about-style h2{
+    font-size: 28px;
+}
+.about .about-style p{
+    color: var(--text-color);
+    font-size: 18px;
+    line-height: 1.8;
+}

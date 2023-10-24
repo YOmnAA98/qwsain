@@ -1,6 +1,6 @@
-<section id="article-details" class="article-details" name="article-details">
+<section id="article-details" class="article-details py-5" name="article-details">
     <div class="container-xl">
-       <div class="article-details-breadcrumb mt-5">
+       <div class="article-details-breadcrumb">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a routerLink="/home">الرئيسية</a></li>
@@ -10,15 +10,26 @@
             </nav>
        </div>
        <div class="article-details-content row border">
-           <section class="right-side col-lg-8 my-3">               
+           <section class="right-side col-lg-8">               
                 <div class="article-title">
-                    <h1 class="py-3">عنوان المقالة</h1>
+                    <h1 class="pt-3">عنوان المقالة</h1>
+                </div>
+                <div class="article-writer">
+                    <p><i class="bi bi-person-circle me-2"></i> تمت الكتابة بواسطة: <a>قوسين</a></p>
+                </div>
+                <div class="topics d-md-none">
+                    <h4 class="bg-light p-2">محتويات</h4>
+                    <ol class="topic-links border-bottom border-2 pt-2 pb-3">
+                        <li class="py-1"><a href="#first">المحتوى الأول</a></li>
+                        <li class="py-1"><a href="#second">المحتوى الثاني</a></li>
+                        <li class="py-1"><a href="#ref">المراجع</a></li>
+                    </ol>
                 </div>
                 <div class="article-photo">
                     <img class="img-fluid" src="../../../assets/images/home images/article.jpg" alt="article-photo">
                 </div>
                 <div class="article-content row">
-                    <div class="related col-md-2 my-3">
+                    <div class="related col-md-2 my-3 p-2">
                         <h5 class="border-bottom py-2"><i class="bi bi-link-45deg me-2"></i> ذات صلة</h5>
                         <p class="border-bottom py-2 m-0"><a routerLink="">عنوان ذات صلة بالمقالة</a></p>
                         <p class="border-bottom py-2 m-0"><a routerLink="">عنوان ذات صلة بالمقالة</a></p>
@@ -26,12 +37,14 @@
                         <p class="border-bottom py-2 m-0"><a routerLink="">عنوان ذات صلة بالمقالة</a></p>
                     </div>
                     <div class="topics col-md-10 my-3">
-                        <h4 class="bg-light p-2">محتويات</h4>
-                        <ol class="topic-links border-bottom border-2 pt-2 pb-3">
-                            <li class="py-1"><a href="#first">المحتوى الأول</a></li>
-                            <li class="py-1"><a href="#second">المحتوى الثاني</a></li>
-                            <li class="py-1"><a href="#ref">المراجع</a></li>
-                        </ol>
+                        <div class="topic-title">
+                            <h4 class="bg-light p-2">محتويات</h4>
+                            <ol class="topic-links border-bottom border-2 pt-2 pb-3">
+                                <li class="py-1"><a href="#first">المحتوى الأول</a></li>
+                                <li class="py-1"><a href="#second">المحتوى الثاني</a></li>
+                                <li class="py-1"><a href="#ref">المراجع</a></li>
+                            </ol>
+                        </div>
                         <div class="topic-content">
                             <h2 id="first">المحتوى الأول</h2>
                             <p> هذا النص يمكن استبداله بنص اخر بديل هذا النص يمكن استبداله بنص اخر بديلر هذا النص يمكن استبداله بنص اخر بديل هذا النص يمكن استبداله بنص اخر بديل هذا النص يمكن استبداله بنص اخر بديل هذا النص يمكن استبداله بنص اخر بديل هذا النص يمكن استبداله بنص اخر بديل هذا النص يمكن استبداله بنص اخر بديل هذا النص يمكن استبداله بنص اخر بديل هذا النص يمكن استبداله بنص اخر بديل هذا النص يمكن استبداله بنص اخر بديل هذا النص يمكن استبداله بنص اخر بديل هذا النص يمكن استبداله بنص اخر بديل هذا النص يمكن استبداله بنص اخر بديل هذا النص يمكن استبداله بنص اخر بديل هذا النص يمكن استبداله بنص اخر بديل هذا النص يمكن استبداله بنص اخر بديل هذا النص يمكن استبداله بنص اخر بديل هذا النص يمكن استبداله بنص اخر بديل هذا النص يمكن استبداله بنص اخر بديل</p>
@@ -45,17 +58,182 @@
                         <div class="topic-useful bg-light text-center rounded-4 my-3 py-4">
                             <h4>هل كان المقال مفيداً؟</h4>
                             <div class="d-flex justify-content-center align-items-center">
-                                <a class="yes me-3"> نعم </a>
-                                <a class="no"> لا </a>
+                                <a class="yes me-3" data-bs-toggle="modal" data-bs-target="#yesModal"> نعم </a>
+                                <a class="no" data-bs-toggle="modal" data-bs-target="#noModal"> لا </a>
+                            </div>
+                            <!-- yes modal -->
+                            <div class="modal fade" id="yesModal" tabindex="-1" aria-labelledby="yesModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content rounded-0">
+                                        <div class="modal-header border-0">                                    
+                                        <button type="button" class="btn shadow-none border-0 rounded-0" data-bs-dismiss="modal" aria-label="Close">
+                                            <i class="bi bi-x"></i>
+                                        </button>
+                                        </div>
+                                        <div class="modal-body text-start">
+                                        <h3 class="mb-3">رائع!</h3>
+                                        <form name="yesForm">
+                                            <div class="mb-3">
+                                                <label for="textarea" class="form-label">هل لديك مقترحات لتحسين تجربتك؟</label>
+                                                <textarea class="form-control shadow-none" id="textarea" rows="3"></textarea>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="email" class="form-label">بريدك الإلكتروني</label>
+                                                <input type="email" class="form-control shadow-none text-start" id="email" placeholder="" autocomplete="email" required>
+                                            </div>  
+                                            <div class="mb-3">
+                                                <label for="name" class="form-label">الاسم</label>
+                                                <input type="text" class="form-control shadow-none" id="name" placeholder="" autocomplete="name" required>
+                                            </div>
+                                            <button type="submit" class="btn rounded-pill border-0 px-sm-4 py-2">إرسال</button>
+                                        </form>
+                                        </div>                                    
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- no modal -->
+                            <div class="modal fade" id="noModal" tabindex="-1" aria-labelledby="noModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content rounded-0">
+                                        <div class="modal-header border-0">                                    
+                                        <button type="button" class="btn shadow-none border-0 rounded-0" data-bs-dismiss="modal" aria-label="Close">
+                                            <i class="bi bi-x"></i>
+                                        </button>
+                                        </div>
+                                        <div class="modal-body text-start">
+                                        <h3 class="mb-3">نأسف لذلك!</h3>
+                                        <form name="noForm">
+                                            <p>لماذا كان المقال غير مفيد؟</p>
+                                            <div class="form-check">
+                                                <input class="form-check-input shadow-none" type="radio" name="radio" id="radio1">
+                                                <label class="form-check-label" for="radio1">
+                                                  المقال لا يحتوي على المعلومات التي أبحث عنها.
+                                                </label>
+                                              </div>
+                                              <div class="form-check">
+                                                <input class="form-check-input shadow-none" type="radio" name="radio" id="radio2">
+                                                <label class="form-check-label" for="radio2">
+                                                  المقال يحتوي على معلومات خاطئة.
+                                                </label>
+                                              </div>
+                                              <div class="form-check">
+                                                <input class="form-check-input shadow-none" type="radio" name="radio" id="radio3">
+                                                <label class="form-check-label" for="radio3">
+                                                  سبب آخر.
+                                                </label>
+                                              </div>
+                                            <button type="submit" class="btn rounded-pill border-0 px-sm-4 py-2 mt-5">متابعة</button>
+                                        </form>
+                                        </div>                                    
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>                
+                </div>
+                
+                <div class="suggested-articles border-top border-2 mt-3 py-3 px-md-3">
+                    <h4>مقالات مقترحة</h4>
+                    <div class="suggested-items row row-cols-sm-3 mt-3">
+                        <div class="item">
+                            <a>
+                                <img class="img-fluid rounded-top-2" src="../../../assets/images/home images/article.jpg" alt="item-photo">
+                                <p class="border rounded-bottom-2 p-2">هذا النص يمكن استبداله بنص اخر بديل</p>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a>
+                                <img class="img-fluid rounded-top-2" src="../../../assets/images/home images/article.jpg" alt="item-photo">
+                                <p class="border rounded-bottom-2 p-2">هذا النص يمكن استبداله بنص اخر بديل</p>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a>
+                                <img class="img-fluid rounded-top-2" src="../../../assets/images/home images/article.jpg" alt="item-photo">
+                                <p class="border rounded-bottom-2 p-2">هذا النص يمكن استبداله بنص اخر بديل</p>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a>
+                                <img class="img-fluid rounded-top-2" src="../../../assets/images/home images/article.jpg" alt="item-photo">
+                                <p class="border rounded-bottom-2 p-2">هذا النص يمكن استبداله بنص اخر بديل</p>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a>
+                                <img class="img-fluid rounded-top-2" src="../../../assets/images/home images/article.jpg" alt="item-photo">
+                                <p class="border rounded-bottom-2 p-2">هذا النص يمكن استبداله بنص اخر بديل</p>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a>
+                                <img class="img-fluid rounded-top-2" src="../../../assets/images/home images/article.jpg" alt="item-photo">
+                                <p class="border rounded-bottom-2 p-2">هذا النص يمكن استبداله بنص اخر بديل</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </section>
 
-            <aside class="left-side col-lg-4 my-3">
-                <div class="rounded-4 p-lg-4">
-                    <h3>عنوان</h3>
+            <aside class="left-side col-lg-4 my-lg-3">
+                <div class="">
+                    <h3 class="border-bottom py-3">عنوان</h3>
+                    <div class="row row-cols-sm-2 mt-3">
+                        <div class="item">
+                            <a>
+                                <img class="img-fluid rounded-top-2" src="../../../assets/images/home images/article.jpg" alt="item-photo">
+                                <p class="border rounded-bottom-2 p-2">هذا النص يمكن استبداله بنص اخر بديل</p>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a>
+                                <img class="img-fluid rounded-top-2" src="../../../assets/images/home images/article.jpg" alt="item-photo">
+                                <p class="border rounded-bottom-2 p-2">هذا النص يمكن استبداله بنص اخر بديل</p>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a>
+                                <img class="img-fluid rounded-top-2" src="../../../assets/images/home images/article.jpg" alt="item-photo">
+                                <p class="border rounded-bottom-2 p-2">هذا النص يمكن استبداله بنص اخر بديل</p>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a>
+                                <img class="img-fluid rounded-top-2" src="../../../assets/images/home images/article.jpg" alt="item-photo">
+                                <p class="border rounded-bottom-2 p-2">هذا النص يمكن استبداله بنص اخر بديل</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="">
+                    <h3 class="border-bottom py-3">عنوان</h3>
+                    <div class="row row-cols-sm-2 mt-3">
+                        <div class="item">
+                            <a>
+                                <img class="img-fluid rounded-top-2" src="../../../assets/images/home images/article.jpg" alt="item-photo">
+                                <p class="border rounded-bottom-2 p-2">هذا النص يمكن استبداله بنص اخر بديل</p>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a>
+                                <img class="img-fluid rounded-top-2" src="../../../assets/images/home images/article.jpg" alt="item-photo">
+                                <p class="border rounded-bottom-2 p-2">هذا النص يمكن استبداله بنص اخر بديل</p>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a>
+                                <img class="img-fluid rounded-top-2" src="../../../assets/images/home images/article.jpg" alt="item-photo">
+                                <p class="border rounded-bottom-2 p-2">هذا النص يمكن استبداله بنص اخر بديل</p>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a>
+                                <img class="img-fluid rounded-top-2" src="../../../assets/images/home images/article.jpg" alt="item-photo">
+                                <p class="border rounded-bottom-2 p-2">هذا النص يمكن استبداله بنص اخر بديل</p>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </aside>
         </div>

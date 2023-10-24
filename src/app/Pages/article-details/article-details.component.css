@@ -10,14 +10,20 @@
 }
 
 /* right side */
+.article-details-content .right-side .article-writer i{
+    font-size: 40px;
+    color: var(--dark-text);
+    vertical-align: middle;
+}
 .article-details-content .right-side .article-content{
     position: relative;
-}
-.article-details-content .right-side .article-content .related{
+} 
+/* .article-details-content .right-side .article-content .related{    
     position: sticky;
     position: -webkit-sticky;
-    top: 0px;
-}
+    top: 11%;    
+    background-color: var(--white-color);
+} */
 .article-details-content .right-side .article-content .related h5{
     font-size: 16px;
 }
@@ -29,11 +35,11 @@
 .article-details-content .right-side .article-content .topics .topic-links li a:hover{
     color: var(--dark-text);
 }
-.article-details-content .right-side .article-content .topics h4{
+.article-details-content .right-side .topics h4{
     font-size: 20px;
     border-bottom: 2px solid var(--primary-color);
 }
-.article-details-content .right-side .article-content .topics .topic-links li a{
+.article-details-content .right-side  .topics .topic-links li a{
     color: var(--primary-color);
     font-weight: bold;
     font-size: 17px;
@@ -69,13 +75,61 @@
 .article-details-content .right-side .article-content .topics .topic-useful a.yes:hover{
     background-color: var(--primary-color);
     color: var(--white-color);
-    border: 2px solid var(--primary-text);
+    border: 2px solid var(--primary-color);
 }
 .article-details-content .right-side .article-content .topics .topic-useful a.no:hover{
     background-color: var(--dark-text);
     color: var(--white-color);
     border: 2px solid var(--dark-text);
 }
+.article-details-content .right-side .article-content .topics .topic-useful .modal-content{
+    border: 5px solid var(--primary-color);
+}
+.article-details-content .right-side .article-content .topics .topic-useful .modal-content .modal-header{
+    position: relative;
+}
+.article-details-content .right-side .article-content .topics .topic-useful .modal-content .modal-header button{
+    position: absolute;
+    left: 0px;
+    padding: 2px;
+    background-color: var(--primary-color);    
+}
+.article-details-content .right-side .article-content .topics .topic-useful .modal-content .modal-header button i{
+    font-size: 20px;
+    color: var(--white-color);    
+}
+.article-details-content .right-side .article-content .topics .topic-useful .modal-content .modal-body form[name="yesForm"] label{
+    font-weight: bold;
+}
+.article-details-content .right-side .article-content .topics .topic-useful .modal-content .modal-body form input:focus,
+.article-details-content .right-side .article-content .topics .topic-useful .modal-content .modal-body form textarea:focus{
+    border: 1px solid var(--primary-color);
+}
+.article-details-content .right-side .article-content .topics .topic-useful .modal-content .modal-body form button{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+.article-details-content .right-side .article-content .topics .topic-useful .modal-content .modal-body form p{
+    font-weight: bold;
+}
+.article-details-content .right-side .article-content .topics .topic-useful .modal-content .modal-body form input[type="radio"]:checked{
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+.article-details-content .right-side .suggested-articles h4, .article-details-content .left-side h3{
+    font-size: 20px;
+}
+.article-details-content .right-side .suggested-items .item p, .article-details-content .left-side .item p{
+    font-weight: bold;
+    color: var(--primary-color);
+    height: 64px;
+    overflow-y: hidden;
+}
 h3{
     font-size: 24px;
+}
+@media screen and (max-width: 767px){
+ .topic-title{
+    display: none;
+ }   
 }
