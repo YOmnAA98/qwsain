@@ -1,0 +1,10 @@
+.breadcrumb li{
+    font-size: 20px;
+}
+.breadcrumb li a{
+    color: var(--dark-text);
+}
+.breadcrumb li a:hover,
+.breadcrumb li.active{
+    color: var(--primary-color);
+}

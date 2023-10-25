@@ -1,15 +1,6 @@
 .courses{
     background: var(--light-bg);
 }
-.courses .courses-breadcrumb li{
-    font-size: 20px;
-}
-.courses .courses-breadcrumb li a{
-    color: var(--dark-text);
-}
-.courses .courses-breadcrumb li a:hover ,.courses .courses-breadcrumb li.active{
-    color: var(--primary-color);
-}
 
 /* right side */
 .courses .right-side .filter, .courses .left-side .info{

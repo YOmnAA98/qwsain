@@ -1,16 +1,6 @@
 .articles{
     background: var(--light-bg);
 }
-/* title */
-.articles .articles-breadcrumb li{
-    font-size: 20px;    
-}
-.articles .articles-breadcrumb li a{
-    color: var(--dark-text);
-}
-.articles .articles-breadcrumb li a:hover, .articles .articles-breadcrumb li.active{
-    color: var(--primary-color);
-}
 /* filter */
 .articles .articles-filter form input:focus, .articles .articles-filter form button:focus{
     border: 1px solid var(--primary-color);

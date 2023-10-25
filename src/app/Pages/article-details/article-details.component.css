@@ -1,14 +1,3 @@
-.article-details .article-details-breadcrumb li{
-    font-size: 20px;
-}
-.article-details .article-details-breadcrumb li a{
-    color: var(--dark-text);
-}
-.article-details .article-details-breadcrumb li a:hover,
-.article-details .article-details-breadcrumb li.active{
-    color: var(--primary-color);
-}
-
 /* right side */
 .article-details-content .right-side .article-writer i{
     font-size: 40px;

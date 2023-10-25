@@ -1,20 +1,167 @@
 <section id="course-tutorial" class="course-tutorial" name="course-tutorial">
     <div class="container-xl">
-        <div class="course-tutorial-title d-flex pt-5 px-4 px-lg-5">
-            <div class="me-2 d-lg-none">
-                <button class="navbar-toggler navbar-offcanvas border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="course-tutorial-title d-flex justify-content-between align-items-center pt-5">            
+            <div class="course-tutorial-breadcrumb">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a routerLink="/home">الرئيسية</a></li>
+                      <li class="breadcrumb-item"><a routerLink="/courses">الدورات</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">دورة ويب للمبتدئين</li>
+                    </ol>
+                </nav>
+            </div>
+            <div class="d-lg-none">
+                <button class="btn border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
                     <span><i class="bi bi-list"></i></span>
                 </button>
             </div>
-            <div>
-                <p><a routerLink="/home">الرئيسية</a> / <a routerLink="/courses">الدورات</a> / <span>دورة بايثون للمبتدئين</span></p>
-            </div>
         </div>
-        <div class="course-tutorial-content row">
+
+        <div class="course-tutorial-content row py-3">
             <aside class="right-side col-lg-3">
-                <div class="lessons"></div>
+                <div class="lessons-subjects">
+                    <div class="lessons-subjects-names bg-white rounded-4 p-lg-4">
+                        <h4 class="p-2 rounded-2">الدروس</h4>
+                        <ul class="nav nav-tabs flex-column border-0 my-3">
+                            <li class="nav-item">
+                              <a class="nav-link d-flex justify-content-between align-items-center border-0 shadow-none rounded-2 active" data-bs-toggle="tab" routerLink="/course/tutorial">
+                                الدرس الأول <i class="bi bi-chevron-left"></i>
+                            </a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link d-flex justify-content-between align-items-center border-0 shadow-none rounded-2" data-bs-toggle="tab" routerLink="/course/tutorial">
+                                الدرس الثاني <i class="bi bi-chevron-left"></i>
+                            </a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link d-flex justify-content-between align-items-center border-0 shadow-none rounded-2" data-bs-toggle="tab" routerLink="/course/tutorial">
+                                الدرس الثالث <i class="bi bi-chevron-left"></i>
+                            </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link d-flex justify-content-between align-items-center border-0 shadow-none rounded-2" data-bs-toggle="tab" routerLink="/course/tutorial">
+                                    الدرس الرابع <i class="bi bi-chevron-left"></i>
+                                </a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link d-flex justify-content-between align-items-center border-0 shadow-none rounded-2" data-bs-toggle="tab" routerLink="/course/tutorial">
+                                    الدرس الخامس <i class="bi bi-chevron-left"></i>
+                                </a>
+                              </li>
+                          </ul>
+                    </div>
+                    <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                        <div class="offcanvas-header">
+                          <h5 class="offcanvas-title" id="offcanvasScrollingLabel"></h5>
+                          <button type="button" class="btn shadow-none border-0" data-bs-dismiss="offcanvas" aria-label="Close">
+                            <i class="bi bi-x"></i>
+                          </button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <h4 class="p-2 rounded-2">الدروس</h4>
+                            <ul class="nav nav-tabs flex-column border-0 my-3">
+                                <li class="nav-item">
+                                    <a class="nav-link d-flex justify-content-between align-items-center border-0 shadow-none rounded-2 active" data-bs-toggle="tab" routerLink="/course/tutorial">
+                                        الدرس الثاني <i class="bi bi-chevron-left"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link d-flex justify-content-between align-items-center border-0 shadow-none rounded-2" data-bs-toggle="tab" routerLink="/course/tutorial">
+                                        الدرس الثاني <i class="bi bi-chevron-left"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link d-flex justify-content-between align-items-center border-0 shadow-none rounded-2" data-bs-toggle="tab" routerLink="/course/tutorial">
+                                        الدرس الثالث<i class="bi bi-chevron-left"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link d-flex justify-content-between align-items-center border-0 shadow-none rounded-2" data-bs-toggle="tab" routerLink="/course/tutorial">
+                                        الدرس الرابع<i class="bi bi-chevron-left"></i>
+                                    </a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link d-flex justify-content-between align-items-center border-0 shadow-none rounded-2" data-bs-toggle="tab" routerLink="/course/tutorial">
+                                        الدرس الخامس<i class="bi bi-chevron-left"></i>
+                                    </a>
+                                  </li>
+                              </ul>
+                        </div>
+                      </div>
+                </div>
             </aside>
-            <section class="left-side col-lg-9">                
+
+            <section class="left-side col-lg-9">
+                <div class="lessons-content bg-white rounded-4 p-lg-4">
+                    <div class="next-prev-btns d-flex justify-content-between">
+                        <a type="button" class="btn rounded-pill px-sm-4 py-2">الرئيسية</a>
+                        <a type="button" class="btn rounded-pill px-sm-4 py-2">الدرس التالي</a>
+                    </div>
+                    <div class="lessons-title text-center mt-5 mb-4">
+                        <h1>HTML</h1>
+                        <h2>أساسيات اللغة</h2>
+                    </div>
+                    <div class="lessons-topics bg-light rounded-2 py-4 mb-5">
+                        <ul class="mb-0">
+                            <li class="list-group-item rounded-1 border-0">
+                                <a href="#topic1">
+                                    <i class="bi bi-chevron-left"></i> أنواع الوسوم في HTML
+                                </a>
+                            </li>                            
+                            <li class="list-group-item rounded-1 border-0">
+                                <a href="#topic2">
+                                    <i class="bi bi-chevron-left"></i> وسوم الصفحة الأساسية في HTML
+                                </a>
+                            </li>
+                            <li class="list-group-item rounded-1 border-0">
+                                <a href="#topic3">
+                                    <i class="bi bi-chevron-left"></i> خصائص وسوم HTML
+                                </a>
+                            </li>                            
+                        </ul>
+                    </div>
+                    <div class="lessons-topics-explanation">
+                        <div class="my-5">
+                            <h3 id="topic1" class="py-3">أنواع الوسوم في HTML</h3>
+                            <p>بشكل عام, أي شيء يتم إضافته في الصفحة يقال له وسم ( Tag ) و يوجد نوعين من الوسوم:</p>
+                            <ul class="px-0">
+                                <li class="list-group-item"><i class="bi bi-dot"></i> وسوم فردية ( Single Tags ) و هذه تعني أن الوسم لا يمكن وضع وسم آخر فيه مثل الوسم <code>&lt;/br&gt;</code>.</li>
+                                <li class="list-group-item"><i class="bi bi-dot"></i> وسوم زوجية ( Paired Tags ) و يقصد بها أن الوسم يمكن أن يوضع فيه وسوم أخرى مثل الوسم <code>&lt;p&gt;  &lt;/p&gt;</code>.</li>
+                            </ul>
+                        </div>
+                        <div class="my-5">
+                            <h3 id="topic2" class="py-3">وسوم الصفحة الأساسية في HTML</h3>
+                            <p>بشكل عام, أي صفحة HTML تتكون من قسمين أساسيين كالتالي:</p>
+                            <ul class="px-0">
+                                <li class="list-group-item"><i class="bi bi-dot"></i> القسم Head و الذي تضع فيه كل ما تحتاجه لتصميم الصفحة و لكن المستخدم لا يراه.</li>
+                                <li class="list-group-item"><i class="bi bi-dot"></i> القسم Body و الذي نضع فيه كل الأشياء التي سيراها المستخدم.</li>
+                            </ul>
+                            <p class="pt-5">الآن عند كتابة كود HTML5 يجب ذكر المعلومات التالية على الأقل في الملف.</p>
+                            <div class="code d-flex justify-content-between align-items-start border rounded-2 p-3">
+                                <button type="button" class="btn copy border-0">
+                                    <a><i class="bi bi-copy"></i></a>
+                                </button>
+                                <div class="syntax">
+                                    <!-- <pre><code>
+                                        &lt;DOCTYPE html!&gt;
+                                                &lt;html&gt;
+                                            &lt;head&gt;
+
+                                            &lt;head/&gt;
+                                            &lt;body&gt;
+                                                    
+                                            &lt;body/&gt;
+                                                &lt;html/&gt;
+                                    </code></pre> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="next-prev-btns d-flex justify-content-between">
+                        <a type="button" class="btn rounded-pill px-sm-4 py-2">الرئيسية</a>
+                        <a type="button" class="btn rounded-pill px-sm-4 py-2">الدرس التالي</a>
+                    </div>
+                </div>              
             </section>
         </div>
     </div>
