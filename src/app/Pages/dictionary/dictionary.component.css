@@ -8,6 +8,14 @@
     font-size: 32px;
     color: var(--white-color);
 }
-.dictionary .dictionary-content h2{
+.dictionary .dictionary-content caption{
     font-size: 24px;
+    font-weight: bold;
+}
+.dictionary .dictionary-content .dictionary-search input:focus{
+    border: 1px solid var(--primary-color);
+}
+.dictionary .dictionary-content .dictionary-search button{
+    background-color: var(--primary-color);
+    color: var(--white-color);
 }

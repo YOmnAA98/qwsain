@@ -26,6 +26,7 @@ import { ForgetPasswordComponent } from './Pages/AccountPages/forget-password/fo
 import { ResetPasswordComponent } from './Pages/AccountPages/reset-password/reset-password.component';
 import { PrivacyPolicyComponent } from './Pages/privacy-policy/privacy-policy.component';
 import { TermsAndConditionsComponent } from './Pages/terms-and-conditions/terms-and-conditions.component';
+import { PaginationComponent } from './Pages/Shared/pagination/pagination.component';
 
 @NgModule({
   declarations: [
@@ -51,7 +52,8 @@ import { TermsAndConditionsComponent } from './Pages/terms-and-conditions/terms-
     ForgetPasswordComponent,
     ResetPasswordComponent,    
     PrivacyPolicyComponent,
-    TermsAndConditionsComponent,           
+    TermsAndConditionsComponent,
+    PaginationComponent,           
   ],
   imports: [
     BrowserModule,

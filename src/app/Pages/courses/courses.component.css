@@ -9,6 +9,13 @@
 .courses .right-side .filter h2{
     font-size: 24px;
 }
+.courses .right-side .filter .search input:focus{      
+    border: 1px solid var(--primary-color);
+}
+.courses .right-side .filter .search button{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
 .courses .right-side .filter .level{
     border-bottom: 1px solid var(--gray-color);
 }
@@ -18,6 +25,8 @@
 }
 .courses .right-side .filter label{
     color: var(--dark-text);
+}.courses .right-side .filter input{
+    border: 1px solid var(--gray-color);
 }
 .courses .right-side .filter input:checked{
     background-color: var(--primary-color);
@@ -25,9 +34,6 @@
 }
 .courses .right-side .filter input:active{
     border: 1px solid var(--primary-color);
-}
-.courses .right-side .filter input:focus{
-    box-shadow: none;    
 }
 .courses .right-side .responsive{
     display: none;
@@ -66,25 +72,6 @@
 .courses .left-side .course .course-info small i{
     color: var(--primary-color);
     font-size: 15px;
-}
-.courses .left-side .pagination li a{    
-    color: var(--dark-text);    
-    padding: 5px 15px;
-    background-color: transparent;    
-}
-.courses .left-side .pagination li.active a, .courses .left-side .pagination li a:hover{
-    background-color: var(--primary-color);
-    color: var(--white-color);    
-    border-radius: 50%;    
-}
-.courses .left-side .pagination li a:focus{    
-    background-color: transparent;
-}
-.courses .left-side .pagination li a.controls{
-    background-color: transparent;    
-}
-.courses .left-side .pagination li a.controls:hover{
-    color: var(--primary-color);
 }
 @media (max-width: 1120px){
     .courses .left-side .course-boxes{

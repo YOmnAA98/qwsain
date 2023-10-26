@@ -1,0 +1,19 @@
+.pagination li a{    
+    color: var(--dark-text);    
+    padding: 5px 15px;
+    background-color: transparent;    
+}
+.pagination li.active a, .pagination li a:hover{
+    background-color: var(--primary-color);
+    color: var(--white-color);    
+    border-radius: 50%;    
+}
+.pagination li a:focus{    
+    background-color: transparent;
+}
+.pagination li a.controls{
+    background-color: transparent;    
+}
+.pagination li a.controls:hover{
+    color: var(--primary-color);
+}
