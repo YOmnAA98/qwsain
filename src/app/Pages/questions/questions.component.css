@@ -1,6 +1,10 @@
 /* title */
+.questions .questions-title{
+    background-color: var(--primary-color);
+}
 .questions .questions-title h1{
     font-size: 32px;
+    color: var(--white-color);
 }
 
 /* content */

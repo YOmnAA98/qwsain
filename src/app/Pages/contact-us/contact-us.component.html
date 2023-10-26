@@ -1,1 +1,80 @@
-<p>contact-us works!</p>
+<section id="contact" class="contact" name="contact">
+    <div class="contact-title bg-light py-5">
+        <div class="container-xl">        
+            <div class="breadcrumb">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a routerLink="/home">الرئيسية</a></li>                
+                    <li class="breadcrumb-item active" aria-current="page">تواصل معنا</li>
+                    </ol>
+                </nav>
+           </div>
+
+           <h1 class="pt-5 mt-3 mb-2">تواصل معنا</h1>
+           <p class="mb-5">موقع قوسين هو موقع لتعليم برمجة الحاسب الآلي خصوصا و علوم الحاسب الآلي عموما</p>
+        </div>
+    </div>
+
+    <div class="contact-content">
+        <div class="container-xl">
+            <div class="content-title text-center">
+                <h2>ستجدنا هنا</h2>
+                <p class="py-2">هذا النص يمكن استبداله بنص اخر بديل هذا النص يمكن استبداله بنص اخر هذا النص يمكن استبداله بنص اخر بديل</p>
+            </div>
+            <div class="contact-features row justify-content-evenly align-items-center my-5">
+                <div class="feature col-lg-3 my-2">
+                    <div class="feature-info rounded-2 d-flex justify-content-center align-items-center py-4">
+                        <div class="text-center">
+                            <i class="bi bi-envelope"></i>
+                            <h3 class="pb-1 pt-4">البريد الإلكتروني</h3>
+                            <p class="mb-0">name@gmail.com <br> company@gmail.com</p>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="feature col-lg-3 my-2">
+                    <div class="feature-info rounded-2 d-flex justify-content-center align-items-center py-4">
+                        <div class="text-center">
+                            <i class="bi bi-phone"></i>
+                            <h3 class="pb-1 pt-4">الهاتف</h3>
+                            <p class="mb-0">201010101010+<br> 201010101010+</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature col-lg-3 my-2">
+                    <div class="feature-info rounded-2 d-flex justify-content-center align-items-center py-4">
+                        <div class="text-center">
+                            <i class="bi bi-geo-alt"></i>
+                            <h3 class="pb-1 pt-4">العنوان</h3>
+                            <p class="mb-0">السعودية، مكة<br> ش الخليفة</p>
+                        </div>
+                    </div>                    
+                </div>            
+            </div>                      
+        </div>
+    </div>
+
+    <div class="contact-form bg-light">
+        <div class="container-xl">
+            <form class="row justify-content-center py-5" name="contactForm">
+                <div class="col-lg-10 py-5">
+                    <div class="form-title text-center">
+                        <h2>إبق على تواصل</h2>
+                        <p class="py-2">هل لديك رسالة تود قولها لنا، تواصل معنا هنا</p>
+                    </div>
+                    <div class="row row-cols-md-2 mt-5">
+                        <div class="mb-4">
+                            <input type="email" class="form-control shadow-none text-start py-2" placeholder="البريد الإلكتروني" name="email" autocomplete="email">
+                        </div>
+                        <div class="mb-4">
+                            <input type="text" class="form-control shadow-none py-2" placeholder="الاسم" name="name" autocomplete="name">
+                        </div>
+                    </div>
+                    <div class="mb-4">                    
+                        <textarea class="form-control shadow-none" placeholder="الرسالة" rows="6" name="message"></textarea>
+                    </div>
+                    <button type="button" class="btn rounded-pill px-4 py-2">أرسل الرسالة</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>

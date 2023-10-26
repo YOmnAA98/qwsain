@@ -1,0 +1,62 @@
+.contact .contact-title h1{
+    font-size: 32px;
+}
+.contact .contact-title p{
+    font-size: 18px;
+    color: var(--text-color);
+}
+.contact .contact-content{
+    margin: 100px 0px;
+}
+.contact .contact-content h2{
+    font-size: 28px;    
+}
+.contact .content-title p, .contact .contact-form form p{
+    font-size: 18px;
+    color: var(--text-color);
+    width: 50%;
+    margin: auto;
+}
+.contact .contact-features .feature-info{    
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.contact .contact-features .feature i{
+    font-size: 40px;    
+    color: var(--primary-color);
+}
+.contact .contact-features .feature h3{
+    font-size: 24px;
+}
+.contact .contact-features .feature p{    
+    font-size: 17px;    
+    color: var(--text-color);
+    height: 50px;    
+    overflow-y: hidden;
+}
+.contact .contact-features .feature-info:hover{
+    background-color: var(--primary-color);    
+    box-shadow: none;
+    transition: all ease-in-out 0.3s;
+}
+.contact .contact-features .feature-info:hover i, .contact .contact-features .feature-info:hover h3, .contact .contact-features .feature-info:hover p{
+    color: var(--white-color);
+    transition: all ease-in-out 0.3s;
+}
+
+/* form */
+.contact .contact-form form input, .contact .contact-form form textarea{
+    background-color: transparent;
+}
+.contact .contact-form form input:focus, .contact .contact-form form textarea:focus{
+    border: 1px solid var(--primary-color);
+}
+.contact .contact-form form button{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+@media screen and (max-width: 992px) {
+    .contact .contact-content p, .contact .contact-form form p{
+        width: 100%;
+    }   
+}

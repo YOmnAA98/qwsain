@@ -1,0 +1,13 @@
+.dictionary{
+    background-color: var(--light-bg);
+}
+.dictionary .dictionary-title{
+    background-color: var(--primary-color);
+}
+.dictionary .dictionary-title h1{
+    font-size: 32px;
+    color: var(--white-color);
+}
+.dictionary .dictionary-content h2{
+    font-size: 24px;
+}
