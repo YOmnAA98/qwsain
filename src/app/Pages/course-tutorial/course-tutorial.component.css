@@ -78,8 +78,10 @@
     font-size: 20px;
     color: var(--primary-color);
 }
-.course-tutorial .course-tutorial-content .left-side .lessons-content .lessons-topics-explanation .code .syntax{
-    overflow-x: auto;
+.course-tutorial .course-tutorial-content .left-side .lessons-content .lessons-topics-explanation .code .toast{
+    background-color: var(--dark-color);
+    color: var(--white-color);
+    width: 100%;
 }
 @media screen and (max-width: 992px) {
     .course-tutorial .course-tutorial-content .right-side .lessons-subjects-names{

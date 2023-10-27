@@ -26,9 +26,11 @@
             ],
             "styles": [
               "src/styles.css",
-              "src/assets/css/breadcrumb.css"
+              "src/assets/css/breadcrumb.css",                            
+              "./node_modules/bootstrap-icons/font/bootstrap-icons.min.css"
             ],
-            "scripts": []
+            "scripts": [              
+            ]
           },
           "configurations": {
             "production": {
@@ -89,9 +91,11 @@
             ],
             "styles": [
               "src/styles.css",
-              "src/assets/css/breadcrumb.css"
+              "src/assets/css/breadcrumb.css",                            
+              "./node_modules/bootstrap-icons/font/bootstrap-icons.min.css"
             ],
-            "scripts": []
+            "scripts": [              
+            ]
           }
         }
       }
