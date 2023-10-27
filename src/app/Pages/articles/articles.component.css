@@ -9,12 +9,21 @@
     background-color: var(--primary-color);
     color: var(--white-color);
 }
-.articles .articles-filter .newest-oldest button{
+.articles .articles-filter .newest-oldest a{
     background-color: var(--white-color);
     border: 1px solid var(--gray-color);
     color: var(--primary-color);
+    border-radius: 0px;    
 }
-.articles .articles-filter .newest-oldest button.active, .articles .articles-filter .newest-oldest button:hover{    
+.articles .articles-filter .newest-oldest a.newest{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.articles .articles-filter .newest-oldest a.oldest{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.articles .articles-filter .newest-oldest a.active, .articles .articles-filter .newest-oldest a:hover{    
     border: 1px solid var(--primary-color);
     background-color: var(--primary-color);
     color: var(--white-color);
