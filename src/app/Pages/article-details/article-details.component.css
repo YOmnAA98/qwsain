@@ -41,9 +41,11 @@
     font-size: 18px;
     line-height: 1.8;
 }
-.article-details-content .right-side .article-content .topics .topic-reference h2{
+.article-details-content .right-side .article-content .topics .topic-reference .card-header{
     border: 1px solid var(--gray-color);
-    border-bottom: 2px solid var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);    
+}
+.article-details-content .right-side .article-content .topics .topic-reference .card-header h2{
     cursor: pointer;
 }
 .article-details-content .right-side .article-content .topics .topic-useful h4{
