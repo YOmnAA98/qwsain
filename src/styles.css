@@ -1,4 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~highlight.js/styles/github.css';
 @font-face {
     font-family: "Tajawal";
     src: url(./assets/fonts/Tajawal-Regular.ttf);
@@ -9,8 +10,9 @@
     --dark-color: #055c4c;
     --semi-color: #D7ECEF;
     --light-color: #EDF8FA;
-    --light-bg: #F8F9FA;    
-    --text-color: #999999;
+    
+    --light-bg: #F1F1F1;    
+    --text-color: #888888;
     --dark-text: #555555;
     --white-color: #ffffff;
     --gray-color: #DEE2E6;

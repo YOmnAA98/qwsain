@@ -47,6 +47,9 @@
 .course-tutorial .course-tutorial-content .left-side .lessons-content .lessons-title h2{
     font-size: 28px;
 }
+.course-tutorial .course-tutorial-content .left-side .lessons-content .lessons-topics{
+    background-color: var(--light-bg);
+}
 .course-tutorial .course-tutorial-content .left-side .lessons-content .lessons-topics ul{
     padding: 0px 20px;    
 }
@@ -54,7 +57,7 @@
     padding: 5px;
 }
 .course-tutorial .course-tutorial-content .left-side .lessons-content .lessons-topics li:hover{
-    background-color: var(--gray-color);        
+    background-color: var(--gray-color);
     transform: translateX(-5px);
     transition: all ease-in-out 0.5s;
     width: calc(100% - 5px);

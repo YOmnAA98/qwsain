@@ -20,6 +20,10 @@
 .footer .content ul li a{
     color: var(--white-color);
 }
+.footer .content .lists ul li a:hover, .footer .content .info ul li a:hover{
+    border-bottom: 1px solid var(--white-color);
+    padding-bottom: 0px;    
+}
 .footer .content .media .contact li a{
     word-break: break-all;
 }

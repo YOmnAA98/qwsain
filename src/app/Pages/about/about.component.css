@@ -1,3 +1,6 @@
+.about .about-title{
+    background-color: var(--light-bg);
+}
 .about .about-title h1{
     font-size: 32px;
 }

@@ -24,9 +24,13 @@
 .article-details-content .right-side .article-content .topics .topic-links li a:hover{
     color: var(--dark-text);
 }
+.article-details-content .right-side .article-content .topics .topic-title h4,
+.article-details-content .right-side .article-content .topics .topic-useful{
+    background-color: var(--light-bg);
+}
 .article-details-content .right-side .topics h4{
     font-size: 20px;
-    border-bottom: 2px solid var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);    
 }
 .article-details-content .right-side  .topics .topic-links li a{
     color: var(--primary-color);
@@ -40,6 +44,7 @@
 .article-details-content .right-side .article-content .topics .topic-content p{
     font-size: 18px;
     line-height: 1.8;
+    color: var(--text-color);
 }
 .article-details-content .right-side .article-content .topics .topic-reference .card-header{
     border: 1px solid var(--gray-color);
