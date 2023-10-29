@@ -2,6 +2,7 @@ import { CodeInputModule } from 'angular-code-input';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HIGHLIGHT_OPTIONS, HighlightModule } from 'ngx-highlightjs';
+import { ClipboardModule } from '@angular/cdk/clipboard';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -28,6 +29,7 @@ import { ResetPasswordComponent } from './Pages/AccountPages/reset-password/rese
 import { PrivacyPolicyComponent } from './Pages/privacy-policy/privacy-policy.component';
 import { TermsAndConditionsComponent } from './Pages/terms-and-conditions/terms-and-conditions.component';
 import { PaginationComponent } from './Pages/Shared/pagination/pagination.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -60,13 +62,15 @@ import { PaginationComponent } from './Pages/Shared/pagination/pagination.compon
     BrowserModule,
     AppRoutingModule,
     CodeInputModule,
-    HighlightModule,  
+    HighlightModule,
+    BrowserAnimationsModule,
+    ClipboardModule
   ],
   providers: [
     {
       provide: HIGHLIGHT_OPTIONS,
       useValue: {
-        fullLibraryLoader: () => import('highlight.js')      
+        fullLibraryLoader: () => import('highlight.js'),     
       }
     }
   ],

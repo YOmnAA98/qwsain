@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-@import '~highlight.js/styles/github.css';
+@import '~highlight.js/styles/atom-one-light.css';
 @font-face {
     font-family: "Tajawal";
     src: url(./assets/fonts/Tajawal-Regular.ttf);
@@ -54,3 +54,5 @@ a, a:link{
 a:hover{
     cursor: pointer;
 }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

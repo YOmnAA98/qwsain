@@ -77,7 +77,13 @@
     vertical-align: middle;
     color: var(--primary-color);
 }
-.course-tutorial .course-tutorial-content .left-side .lessons-content .lessons-topics-explanation .code .copy i{
+.course-tutorial .course-tutorial-content .left-side .lessons-content .lessons-topics-explanation .code .syntax{
+    background-color: #fafafa;
+}
+.course-tutorial .course-tutorial-content .left-side .lessons-content .lessons-topics-explanation .code .syntax .code-lang{
+    font-size: 16px;
+}
+.course-tutorial .course-tutorial-content .left-side .lessons-content .lessons-topics-explanation .code .syntax .code-icon i{
     font-size: 20px;
     color: var(--primary-color);
 }
