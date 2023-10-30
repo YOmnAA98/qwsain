@@ -60,3 +60,9 @@
 .questions .questions-content .content .card-body p{        
     line-height: 1.8;
 }
+
+@media (max-width: 992px) {
+    .questions .questions-title h1{
+        font-size: 22px;
+    }
+}
