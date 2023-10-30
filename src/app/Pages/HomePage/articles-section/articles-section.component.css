@@ -4,6 +4,7 @@
 }
 .home-articles .articles-title h2{
     color: var(--dark-text);
+    font-weight: bold;
 }
 .home-articles .articles-title h2::after{
     content: "";
@@ -29,6 +30,7 @@
 }
 .home-articles .articles-content .article  .article-text h3{
     font-size: 24px;
+    font-weight: bold;
     height: 29px;
     overflow-y: hidden;
 }

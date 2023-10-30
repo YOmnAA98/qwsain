@@ -1,5 +1,7 @@
 .terms-conditions-hero .terms-conditions-title h1{
     font-size: 32px;
+    font-weight: bold;
+    color: var(--dark-text);
 }
 .terms-conditions-hero .terms-conditions-title p{
     font-size: 18px;

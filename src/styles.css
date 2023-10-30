@@ -26,10 +26,6 @@
     font-family: "Tajawal";
 }
 /* common styles */
-h1, h2, h3, h4 , h5, h6{ 
-    font-weight: bold;
-    color: var(--dark-text);
-}
 h1{
     font-size: 40px;
 }
@@ -49,10 +45,9 @@ h6{
     font-size: 16px;
 }
 a, a:link{
-    text-decoration: none;    
+    text-decoration: none; 
+    color: var(--dark-text);   
 }
 a:hover{
     cursor: pointer;
 }
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

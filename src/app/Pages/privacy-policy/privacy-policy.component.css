@@ -1,5 +1,7 @@
 .privacy-policy-hero .privacy-policy-title h1{
     font-size: 32px;
+    font-weight: bold;
+    color: var(--dark-text);
 }
 .privacy-policy-hero .privacy-policy-title p{
     font-size: 18px;

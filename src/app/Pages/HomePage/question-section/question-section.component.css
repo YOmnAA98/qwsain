@@ -3,6 +3,7 @@
 }
 .home-question .question-info h2{
     color: var(--dark-text);
+    font-weight: bold;
 }
 .home-question .question-info h2::after{
     content: "";
@@ -14,6 +15,7 @@
 }
 .home-question .question-info p{
     color: var(--text-color);
+    font-size: 17px;
 }
 .home-question .question-info a{
     background-color: var(--primary-color);

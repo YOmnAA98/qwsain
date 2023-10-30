@@ -3,6 +3,13 @@
     padding: 5px 15px;
     background-color: transparent;    
 }
+.pagination li.num a{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    width: 35px;
+    height: 35px;
+}
 .pagination li.active a, .pagination li a:hover{
     background-color: var(--primary-color);
     color: var(--white-color);    

@@ -8,6 +8,8 @@
 }
 .courses .right-side .filter h2{
     font-size: 24px;
+    font-weight: bold;
+    color: var(--dark-text);
 }
 .courses .right-side .filter .search input:focus{      
     border: 1px solid var(--primary-color);
@@ -22,6 +24,7 @@
 .courses .right-side .filter h4{
     color: var(--text-color);
     font-size: 18px;
+    font-weight: bold;
 }
 .courses .right-side .filter label{
     color: var(--dark-text);
@@ -42,6 +45,8 @@
 /* left side */
 .courses .left-side .info h1{
     font-size: 32px;
+    font-weight: bold;
+    color: var(--dark-text);
 }
 .courses .left-side .course-boxes{
     display: grid;
@@ -55,6 +60,7 @@
 }
 .courses .left-side .course .course-text h3{
     font-size: 24px;
+    font-weight: bold;
     height: 29px;
     overflow-y: hidden;
 }

@@ -42,10 +42,13 @@
 }
 .course-tutorial .course-tutorial-content .left-side .lessons-content .lessons-title h1{
     font-size: 32px;
+    font-weight: bold;
     color: var(--primary-color);
 }
 .course-tutorial .course-tutorial-content .left-side .lessons-content .lessons-title h2{
     font-size: 28px;
+    font-weight: bold;
+    color: var(--dark-text);
 }
 .course-tutorial .course-tutorial-content .left-side .lessons-content .lessons-topics{
     background-color: var(--light-bg);
@@ -71,6 +74,8 @@
 }
 .course-tutorial .course-tutorial-content .left-side .lessons-content .lessons-topics-explanation h3{
     font-size: 24px;
+    font-weight: bold;
+    color: var(--dark-text);
 }
 .course-tutorial .course-tutorial-content .left-side .lessons-content .lessons-topics-explanation i{
     font-size: 30px;
@@ -81,7 +86,7 @@
     background-color: #fafafa;
 }
 .course-tutorial .course-tutorial-content .left-side .lessons-content .lessons-topics-explanation .code .syntax .code-lang{
-    font-size: 16px;
+    font-size: 17px;
 }
 .course-tutorial .course-tutorial-content .left-side .lessons-content .lessons-topics-explanation .code .syntax .code-icon i{
     font-size: 20px;

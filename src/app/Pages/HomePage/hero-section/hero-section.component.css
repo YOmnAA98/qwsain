@@ -3,11 +3,13 @@
     overflow-x: hidden;
 }
 .hero .title h1{
-    color: var(--primary-color);    
+    color: var(--primary-color);   
+    font-weight: bold; 
 }
 .hero .title p{
     color: var(--text-color);
     font-size: 18px;
+    line-height: 1.8;
 }
 .hero .title ul{
     list-style-type: none;
@@ -47,21 +49,3 @@
         font-size: 16px;
     }
 }
-/* .hero .search{
-    position: relative;
-}
-.hero .search input{
-    height: 50px;
-}
-.hero .search input:focus{
-    box-shadow: none;
-    border-color: var(--primary-color);
-}
-.hero .search button{
-    position: absolute;
-    left: 5px;
-    top: 5px;
-    background: var(--primary-color);
-    color: var(--white-color);
-    z-index: 10;
-} */

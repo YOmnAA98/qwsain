@@ -9,6 +9,8 @@
 }
 .login .login-content form h1{
     font-size: 28px;
+    font-weight: bold;
+    color: var(--dark-text);
 }
 .login .login-content form p{
     font-size: 18px;

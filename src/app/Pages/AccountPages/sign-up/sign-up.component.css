@@ -9,6 +9,8 @@
 }
 .signup .signup-content form h1{
     font-size: 28px;
+    font-weight: bold;
+    color: var(--dark-text);
 }
 .signup .signup-content form p{
     font-size: 18px;

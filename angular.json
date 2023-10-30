@@ -28,9 +28,11 @@
               "@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css",
               "src/assets/css/breadcrumb.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.rtl.min.css",
               "./node_modules/bootstrap-icons/font/bootstrap-icons.min.css"
             ],
-            "scripts": [              
+            "scripts": [
+              
             ]
           },
           "configurations": {
@@ -94,9 +96,11 @@
               "@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css",
               "src/assets/css/breadcrumb.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.rtl.min.css",
               "./node_modules/bootstrap-icons/font/bootstrap-icons.min.css"
             ],
-            "scripts": [              
+            "scripts": [
+              
             ]
           }
         }

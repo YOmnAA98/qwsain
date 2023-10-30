@@ -3,6 +3,8 @@
 }
 .contact .contact-title h1{
     font-size: 32px;
+    font-weight: bold;
+    color: var(--dark-text);
 }
 .contact .contact-title p{
     font-size: 18px;
@@ -11,8 +13,10 @@
 .contact .contact-content{
     margin: 100px 0px;
 }
-.contact .contact-content h2{
-    font-size: 28px;    
+.contact .contact-content h2, .contact .contact-form  h2{
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--dark-text);
 }
 .contact .content-title p, .contact .contact-form form p{
     font-size: 18px;
@@ -29,6 +33,8 @@
 }
 .contact .contact-features .feature h3{
     font-size: 24px;
+    font-weight: bold;
+    color: var(--dark-text);
 }
 .contact .contact-features .feature p{    
     font-size: 17px;    

@@ -32,9 +32,13 @@
 /* content */
 .articles .articles-content h1{
     font-size: 32px;
+    font-weight: bold;
+    color: var(--dark-text);
 }
 .articles .articles-content .article .article-text h2{
     font-size: 28px;
+    font-weight: bold;    
+    color: var(--dark-text);
 }
 .articles .articles-content .article .article-text p{
     color: var(--text-color);

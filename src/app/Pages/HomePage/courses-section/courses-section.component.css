@@ -4,6 +4,7 @@
 }
 .home-courses .courses-title h2{
     color: var(--dark-text);
+    font-weight: bold;    
 }
 .home-courses .courses-title h2::after{
     content: "";
@@ -30,10 +31,11 @@
 
 .home-courses .courses-content .course .course-text h3{
     font-size: 24px;
+    font-weight: bold;
     height: 29px;
-    overflow-y: hidden;
+    overflow-y: hidden;      
 }
-.home-courses .courses-content .course .course-text p{
+.home-courses .courses-content .course .course-text p{    
     color: var(--text-color);
     height: 50px;
     overflow-y: hidden;
