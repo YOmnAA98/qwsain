@@ -60,14 +60,3 @@
 .questions .questions-content .content .card-body p{        
     line-height: 1.8;
 }
-
-/* contact */
-.questions .contact h2{
-    font-size: 28px; 
-    font-weight: bold;
-    color: var(--dark-text);   
-}
-.questions .contact a{
-    background-color: var(--primary-color);
-    color: var(--white-color);
-}
