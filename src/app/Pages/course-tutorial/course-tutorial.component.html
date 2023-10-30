@@ -157,7 +157,84 @@
                                 </div>
                             </div>
                         </div>
+                    </div>                    
+
+                    <!-- review -->
+                    <div class="lessons-review text-center rounded-4 my-5 py-5">
+                        <h4>هل كان الدرس مفيداً؟</h4>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <a class="yes me-3" data-bs-toggle="modal" data-bs-target="#yesModal"> نعم </a>
+                            <a class="no" data-bs-toggle="modal" data-bs-target="#noModal"> لا </a>
+                        </div>
+                        <!-- yes modal -->
+                        <div class="modal fade" id="yesModal" tabindex="-1" aria-labelledby="yesModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content rounded-0">
+                                    <div class="modal-header border-0">                                    
+                                    <button type="button" class="btn shadow-none border-0 rounded-0" data-bs-dismiss="modal" aria-label="Close">
+                                        <i class="bi bi-x"></i>
+                                    </button>
+                                    </div>
+                                    <div class="modal-body text-start">
+                                    <h3 class="mb-3">رائع!</h3>
+                                    <form name="yesForm">
+                                        <div class="mb-3">
+                                            <label for="textarea" class="form-label">هل لديك مقترحات لتحسين تجربتك؟</label>
+                                            <textarea class="form-control shadow-none" id="textarea" rows="3"></textarea>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="email" class="form-label">بريدك الإلكتروني</label>
+                                            <input type="email" class="form-control shadow-none text-start" id="email" placeholder="" autocomplete="email" required>
+                                        </div>  
+                                        <div class="mb-3">
+                                            <label for="name" class="form-label">الاسم</label>
+                                            <input type="text" class="form-control shadow-none" id="name" placeholder="" autocomplete="name" required>
+                                        </div>
+                                        <button type="submit" class="btn rounded-pill border-0 px-sm-4 py-2">إرسال</button>
+                                    </form>
+                                    </div>                                    
+                                </div>
+                            </div>
+                        </div>
+                        <!-- no modal -->
+                        <div class="modal fade" id="noModal" tabindex="-1" aria-labelledby="noModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content rounded-0">
+                                    <div class="modal-header border-0">                                    
+                                    <button type="button" class="btn shadow-none border-0 rounded-0" data-bs-dismiss="modal" aria-label="Close">
+                                        <i class="bi bi-x"></i>
+                                    </button>
+                                    </div>
+                                    <div class="modal-body text-start">
+                                    <h3 class="mb-3">نأسف لذلك!</h3>
+                                    <form name="noForm">
+                                        <p>لماذا كان الدرس غير مفيد؟</p>
+                                        <div class="form-check">
+                                            <input class="form-check-input shadow-none" type="radio" name="radio" id="radio1">
+                                            <label class="form-check-label" for="radio1">
+                                              الدرس لا يحتوي على المعلومات التي أبحث عنها.
+                                            </label>
+                                          </div>
+                                          <div class="form-check">
+                                            <input class="form-check-input shadow-none" type="radio" name="radio" id="radio2">
+                                            <label class="form-check-label" for="radio2">
+                                              الدرس يحتوي على معلومات خاطئة.
+                                            </label>
+                                          </div>
+                                          <div class="form-check">
+                                            <input class="form-check-input shadow-none" type="radio" name="radio" id="radio3">
+                                            <label class="form-check-label" for="radio3">
+                                              سبب آخر.
+                                            </label>
+                                          </div>
+                                        <button type="submit" class="btn rounded-pill border-0 px-sm-4 py-2 mt-5">متابعة</button>
+                                    </form>
+                                    </div>                                    
+                                </div>
+                            </div>
+                        </div>
                     </div>
+
                     <div class="next-prev-btns d-flex justify-content-between">
                         <a type="button" class="btn rounded-pill px-sm-4 py-2">الرئيسية</a>
                         <a type="button" class="btn rounded-pill px-sm-4 py-2">الدرس التالي</a>

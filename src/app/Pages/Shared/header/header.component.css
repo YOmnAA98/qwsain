@@ -5,6 +5,7 @@
     font-size: 30px;
     color: var(--primary-color);
     font-weight: bold;
+    margin-left: 0px;
 }
 .header .navbar-toggler span i{
     color: var(--dark-text);
@@ -18,6 +19,7 @@
 }
 .header .navbar-nav .nav-item a{
     color: var(--dark-text);
+    font-weight: bold;
 }
 .header .navbar-nav .nav-item a:hover{
     color: var(--primary-color);
@@ -73,6 +75,9 @@ header .navbar-toggler{
         opacity: 1;
         font-size: 18px;
         vertical-align: middle;
+    }
+    .header .navbar-nav .nav-item a{
+        font-weight: 500;
     }
     .header .navbar-account a.sign-up, .header .navbar-account a.login{
         background-color: transparent;

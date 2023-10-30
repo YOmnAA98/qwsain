@@ -17,6 +17,7 @@ import { ForgetPasswordComponent } from './Pages/AccountPages/forget-password/fo
 import { ResetPasswordComponent } from './Pages/AccountPages/reset-password/reset-password.component';
 import { PrivacyPolicyComponent } from './Pages/privacy-policy/privacy-policy.component';
 import { TermsAndConditionsComponent } from './Pages/terms-and-conditions/terms-and-conditions.component';
+import { WordComponent } from './Pages/word/word.component';
 
 
 
@@ -34,6 +35,7 @@ const routes: Routes = [
     
   {path: 'questions', component: QuestionsComponent},
   {path: 'dictionary', component: DictionaryComponent},
+  {path: 'word', component: WordComponent},
 
   {path: 'login', component: LoginComponent},
   {path: 'sign-up', component: SignUpComponent},

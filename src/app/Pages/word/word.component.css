@@ -1,0 +1,15 @@
+.word{
+    background-color: var(--light-bg);
+}
+.word .word-title{
+    background-color: var(--primary-color);
+}
+.word .word-title h1{
+    font-size: 32px;
+    font-weight: bold;    
+    color: var(--white-color);
+}
+.word .word-content caption{
+    font-size: 24px;
+    font-weight: bold;
+}

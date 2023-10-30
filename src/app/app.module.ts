@@ -20,6 +20,7 @@ import { ArticlesComponent } from './Pages/articles/articles.component';
 import { CourseTutorialComponent } from './Pages/course-tutorial/course-tutorial.component';
 import { ArticleDetailsComponent } from './Pages/article-details/article-details.component';
 import { DictionaryComponent } from './Pages/dictionary/dictionary.component';
+import { WordComponent } from './Pages/word/word.component';
 import { QuestionsComponent } from './Pages/questions/questions.component';
 import { SignUpComponent } from './Pages/AccountPages/sign-up/sign-up.component';
 import { LoginComponent } from './Pages/AccountPages/login/login.component';
@@ -40,7 +41,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     HeroSectionComponent,          
     CoursesSectionComponent,
     ArticlesSectionComponent, 
-    DictionaryComponent,   
+    DictionaryComponent,
+    WordComponent,   
     QuestionSectionComponent,
     AboutComponent,
     ContactUsComponent,           
@@ -56,7 +58,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ResetPasswordComponent,    
     PrivacyPolicyComponent,
     TermsAndConditionsComponent,
-    PaginationComponent,           
+    PaginationComponent,        
   ],
   imports: [
     BrowserModule,

@@ -49,6 +49,7 @@
 }
 .articles .articles-content .article .article-text span{
     color: var(--primary-color);
+    font-weight: bold;
 }
 @media screen and (max-width: 992px) {
     .articles{
