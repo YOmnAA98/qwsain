@@ -162,6 +162,17 @@
     background-color: var(--primary-color);
     border: 1px solid var(--primary-color);
 }
+.course-tutorial .course-tutorial-content .left-side .suggested-lessons h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--dark-text);
+}
+.course-tutorial .course-tutorial-content .left-side .suggested-lessons p{
+    font-weight: bold;
+    color: var(--primary-color);
+    height: 64px;
+    overflow-y: hidden;
+}
 @media screen and (max-width: 992px) {
     .course-tutorial .course-tutorial-content .right-side .lessons-subjects-names{
         display: none;

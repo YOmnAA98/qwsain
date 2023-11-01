@@ -1,0 +1,49 @@
+/* title */
+.question .question-title{
+    background-color: var(--primary-color);
+}
+.question .question-title h1{
+    font-size: 32px;
+    font-weight: bold;    
+    color: var(--white-color);
+}
+
+/* content */
+.question .question-content .question-info h2, .question .question-content .answer h2{
+    position: relative;
+    font-size: 28px;
+    font-weight: bold;
+    background-color: var(--light-bg);
+}
+.question .question-content .question-info h2::before, .question .question-content .answer h2::before{
+    content: "";
+    display: inline;
+    height: 100%;
+    width: 5px;
+    background-color: var(--primary-color);
+    position: absolute;
+    top: 0px;
+    right: 0px;    
+}
+.question .question-content .question-info p, .question .question-content .answer p{
+    font-size: 17px;
+    line-height: 1.7;
+}
+.question .question-content .answer audio::-webkit-media-controls-panel{
+    background-color: var(--white-color);
+}
+.question .question-content .suggested-questions h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--dark-text);
+}
+.question .question-content .suggested-questions{
+    background-color: var(--light-bg);
+}
+.question .question-content .suggested-questions ul li a{
+    font-size: 17px;
+    color: var(--dark-text);
+}
+.question .question-content .suggested-questions ul li a:hover{
+    color: var(--primary-color);
+}

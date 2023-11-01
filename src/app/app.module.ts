@@ -31,6 +31,7 @@ import { PrivacyPolicyComponent } from './Pages/privacy-policy/privacy-policy.co
 import { TermsAndConditionsComponent } from './Pages/terms-and-conditions/terms-and-conditions.component';
 import { PaginationComponent } from './Pages/Shared/pagination/pagination.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { QuestionComponent } from './Pages/question/question.component';
 
 @NgModule({
   declarations: [
@@ -58,7 +59,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ResetPasswordComponent,    
     PrivacyPolicyComponent,
     TermsAndConditionsComponent,
-    PaginationComponent,        
+    PaginationComponent,
+    QuestionComponent,        
   ],
   imports: [
     BrowserModule,

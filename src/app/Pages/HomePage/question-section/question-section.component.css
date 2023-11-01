@@ -13,15 +13,15 @@
     height: 3px;
     background: var(--primary-color);
 }
-.home-question .question-info p{
+.home-question .question-info a{
     color: var(--text-color);
     font-size: 17px;
 }
-.home-question .question-info a{
+.home-question .question-info a.more{
     background-color: var(--primary-color);
     color: var(--white-color);
 }
-.home-question .question-info a:hover{
+.home-question .question-info a.more:hover{
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
     opacity: 0.8;
     transition: all ease-in-out 0.5s;

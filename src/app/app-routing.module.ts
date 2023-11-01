@@ -9,7 +9,9 @@ import { CourseTutorialComponent } from './Pages/course-tutorial/course-tutorial
 import { ArticlesComponent } from './Pages/articles/articles.component';
 import { ArticleDetailsComponent } from './Pages/article-details/article-details.component';
 import { DictionaryComponent } from './Pages/dictionary/dictionary.component';
+import { WordComponent } from './Pages/word/word.component';
 import { QuestionsComponent } from './Pages/questions/questions.component';
+import { QuestionComponent } from './Pages/question/question.component';
 import { LoginComponent } from './Pages/AccountPages/login/login.component';
 import { SignUpComponent } from './Pages/AccountPages/sign-up/sign-up.component';
 import { VerificationComponent } from './Pages/AccountPages/verification/verification.component';
@@ -17,8 +19,6 @@ import { ForgetPasswordComponent } from './Pages/AccountPages/forget-password/fo
 import { ResetPasswordComponent } from './Pages/AccountPages/reset-password/reset-password.component';
 import { PrivacyPolicyComponent } from './Pages/privacy-policy/privacy-policy.component';
 import { TermsAndConditionsComponent } from './Pages/terms-and-conditions/terms-and-conditions.component';
-import { WordComponent } from './Pages/word/word.component';
-
 
 
 const routes: Routes = [
@@ -34,6 +34,8 @@ const routes: Routes = [
   {path: 'article', component: ArticleDetailsComponent},
     
   {path: 'questions', component: QuestionsComponent},
+  {path: 'question1', component: QuestionComponent},
+
   {path: 'dictionary', component: DictionaryComponent},
   {path: 'word', component: WordComponent},
 

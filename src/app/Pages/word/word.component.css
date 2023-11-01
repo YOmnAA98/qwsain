@@ -13,3 +13,20 @@
     font-size: 24px;
     font-weight: bold;
 }
+.word .word-content .suggested-words h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--dark-text);
+}
+.word .word-content .suggested-words .suggested-items ul li{
+    padding: 5px 0px;
+    list-style-position: inside;
+    list-style-type: none;
+}
+.word .word-content .suggested-words .suggested-items ul li a{
+    font-size: 17px;
+    color: var(--dark-text);
+}
+.word .word-content .suggested-words .suggested-items ul li a:hover{
+    color: var(--primary-color);
+}
