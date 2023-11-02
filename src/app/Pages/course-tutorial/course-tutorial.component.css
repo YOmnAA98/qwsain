@@ -21,7 +21,8 @@
     bottom: 0px;
     border-radius: 0px 20px 20px 0px;
 }
-.course-tutorial .course-tutorial-content .right-side .lessons-subjects h4{
+.course-tutorial .course-tutorial-content .right-side .lessons-subjects h4,
+.course-tutorial .course-tutorial-content .right-side .lessons-subjects .offcanvas h4{
     font-size: 20px;
     background-color: var(--primary-color);
     color: var(--white-color);
@@ -191,5 +192,16 @@
     }
     .course-tutorial{
         background: var(--white-bg);
+    }
+}
+@media screen and (max-width: 575px) {
+    .course-tutorial .course-tutorial-content .left-side .lessons-content .lessons-title h1{
+        font-size: 24px;
+    }
+    .course-tutorial .course-tutorial-content .left-side .lessons-content .lessons-title h2{
+        font-size: 22px;
+    }
+    .course-tutorial .course-tutorial-content .left-side .lessons-content .lessons-topics-explanation h3{
+        font-size: 20px;
     }
 }

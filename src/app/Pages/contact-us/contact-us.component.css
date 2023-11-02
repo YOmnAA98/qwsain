@@ -62,8 +62,23 @@
     color: var(--white-color);
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
     .contact .contact-content p, .contact .contact-form form p{
         width: 100%;
     }   
+}
+@media screen and (max-width: 575px) {
+    .contact .contact-title h1{
+        font-size: 24px;
+    }
+    .contact .contact-content h2, .contact .contact-form  h2{
+        font-size: 22px;
+    }
+    .contact .contact-features .feature h3{
+        font-size: 20px;
+    }
+    .contact .contact-title p, .contact .content-title p, .contact .contact-form form p,
+    .contact .contact-features .feature p{
+        font-size: 16px;
+    }
 }

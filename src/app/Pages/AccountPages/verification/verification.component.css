@@ -29,6 +29,7 @@
     font-size: 28px;  
     /* box-shadow: 0px 0px 5px #ccc inset; */
     transition: all ease-in-out 0.2s;
+    margin-bottom: 40px;
 }
 .verify .verify-content form input:focus{
     border: 1px solid var(--primary-color);    
@@ -51,23 +52,13 @@
         width: auto;
         text-align: right;
         box-shadow: none;
-    }      
+    }
+    /* .verify .verify-content form input code-input span{
+        width: 50px !important;
+    }  */
 }
-code-input{
-    margin-bottom: 40px;
-}
-@media screen and (max-width: 492px) {    
-    .verify .verify-content form input{
-        width: 45px;    
-    } 
-}
-@media screen and (max-width: 462px) {    
-    .verify .verify-content form input{
-        width: 40px;              
-    } 
-}
-@media screen and (max-width: 432px) {    
-    .verify .verify-content form input{
-        width: auto;        
-    } 
+@media screen and (max-width: 575px) {
+    .verify .verify-content form h1{
+        font-size: 24px;
+    }   
 }

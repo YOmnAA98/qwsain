@@ -41,9 +41,9 @@
     opacity: 0.8;
     transition: all ease-in-out 0.5s;
 }
-@media screen and (max-width: 505px) {
-    .hero .title h2{        
-        font-size: 30px;    
+@media screen and (max-width: 575px) {
+    .hero .title h1{
+        font-size: 26px;
     }
     .hero .title p{        
         font-size: 16px;

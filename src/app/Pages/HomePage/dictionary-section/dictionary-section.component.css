@@ -29,3 +29,11 @@
     opacity: 0.8;
     transition: all ease-in-out 0.5s;
 }
+@media screen and (max-width: 575px) {
+    .home-dictionary .dictionary-info h2{
+        font-size: 22px;
+    }
+    .home-dictionary .dictionary-info a{
+        font-size: 16px;
+    }
+}

@@ -8,3 +8,8 @@
 .breadcrumb li.active{
     color: var(--primary-color);
 }
+@media screen and (max-width: 575px) {
+    .breadcrumb li{
+        font-size: 14px;
+    }
+}

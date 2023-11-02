@@ -112,3 +112,14 @@
         grid-template-columns: 1fr;
     }
 }
+@media screen and (max-width: 575px) {
+    .courses .left-side .info h1{
+        font-size: 24px;
+    }
+    .courses .right-side .filter h2{
+        font-size: 22px;
+    }
+    .courses .left-side .course .course-text h3{
+        font-size: 20px;
+    }
+}

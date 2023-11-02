@@ -24,3 +24,11 @@
     background-color: var(--primary-color);
     color: var(--white-color);
 }
+@media screen and (max-width: 575px) {
+    .dictionary .dictionary-title h1{
+        font-size: 24px;
+    }   
+    .dictionary .dictionary-content caption{
+        font-size: 22px;
+    }
+}

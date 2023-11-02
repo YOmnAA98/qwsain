@@ -59,3 +59,8 @@
         box-shadow: none;
     }    
 }
+@media screen and (max-width: 575px) {
+    .login .login-content form h1{
+        font-size: 24px;
+    }   
+}

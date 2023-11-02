@@ -65,3 +65,14 @@
         flex-direction: column-reverse;        
     }
 }
+@media screen and (max-width: 575px) {
+    .about .about-title h1{
+        font-size: 24px;
+    } 
+    .about .about-title p, .about .about-features .feature p, .about .about-style p{
+        font-size: 16px;
+    }
+    .about .about-features .feature h2, .about .about-style h2{
+        font-size: 22px;
+    }    
+}

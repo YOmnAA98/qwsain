@@ -70,3 +70,11 @@
         grid-template-columns: 1fr;
     }
 }
+@media screen and (max-width: 575px) {
+    .home-courses .courses-title h2{
+        font-size: 22px;
+    }
+    .home-courses .courses-content .course .course-text h3{
+        font-size: 20px;
+    }
+}

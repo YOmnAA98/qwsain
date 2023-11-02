@@ -51,8 +51,19 @@
     color: var(--primary-color);
     font-weight: bold;
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
     .articles{
         background: var(--white-color);
+    }
+}
+@media screen and (max-width: 575px) {
+    .articles .articles-content h1{
+        font-size: 24px;
+    }
+    .articles .articles-content .article .article-text h2{
+        font-size: 22px;
+    }
+    .articles .articles-content .article .article-text p{
+        font-size: 16px;
     }
 }

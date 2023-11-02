@@ -32,7 +32,7 @@
 .question .question-content .answer audio::-webkit-media-controls-panel{
     background-color: var(--white-color);
 }
-.question .question-content .suggested-questions h4{
+.question .question-content .suggested-questions h3{
     font-size: 20px;
     font-weight: bold;
     color: var(--dark-text);
@@ -46,4 +46,15 @@
 }
 .question .question-content .suggested-questions ul li a:hover{
     color: var(--primary-color);
+}
+@media screen and (max-width: 575px) {
+    .question .question-title h1{
+        font-size: 24px;
+    }
+    .question .question-content .question-info h2, .question .question-content .answer h2{
+        font-size: 22px;
+    }
+    .question .question-content .question-info p, .question .question-content .answer p{
+        font-size: 16px;        
+    }
 }

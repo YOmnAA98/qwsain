@@ -120,11 +120,20 @@
     height: 64px;
     overflow-y: hidden;
 }
-h3{
-    font-size: 24px;
-}
+
 @media screen and (max-width: 767px){
  .topic-title{
     display: none;
  }   
+}
+@media screen and (max-width: 575px) {
+    .article-details-content .right-side .article-title h1{
+        font-size: 24px;
+    }
+    .article-details-content .right-side .article-content .topics .topic-content h2{
+        font-size: 22px;
+    }
+    .article-details-content .right-side .article-content .topics .topic-content p{
+        font-size: 16px;
+    }
 }

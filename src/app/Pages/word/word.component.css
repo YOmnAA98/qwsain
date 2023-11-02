@@ -13,7 +13,7 @@
     font-size: 24px;
     font-weight: bold;
 }
-.word .word-content .suggested-words h4{
+.word .word-content .suggested-words h2{
     font-size: 20px;
     font-weight: bold;
     color: var(--dark-text);
@@ -29,4 +29,12 @@
 }
 .word .word-content .suggested-words .suggested-items ul li a:hover{
     color: var(--primary-color);
+}
+@media screen and (max-width: 575px){
+    .word .word-title h1{
+        font-size: 24px;
+    }
+    .word .word-content caption{
+        font-size: 22px;
+    }
 }
