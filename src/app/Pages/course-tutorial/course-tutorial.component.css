@@ -19,11 +19,13 @@
     position: relative;
     top: 0px;
     bottom: 0px;
+    border-radius: 0px 20px 20px 0px;
 }
 .course-tutorial .course-tutorial-content .right-side .lessons-subjects h4{
     font-size: 20px;
     background-color: var(--primary-color);
     color: var(--white-color);
+    border-radius: 20px 4px 20px 4px;
 }
 .course-tutorial .course-tutorial-content .right-side .lessons-subjects ul li a{
     color: var(--primary-color);
@@ -39,6 +41,9 @@
     font-size: 25px;
 }
 /* left side */
+.course-tutorial .course-tutorial-content .left-side {
+    border-radius: 20px 0px 0px 20px;
+}
 .course-tutorial .course-tutorial-content .left-side .lessons-content .next-prev-btns a{
     background-color: var(--primary-color);
     color: var(--white-color);
@@ -179,7 +184,7 @@
     height: 64px;
     overflow-y: hidden;
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991.5px) {
     .course-tutorial .course-tutorial-content .right-side .lessons-subjects-names{
         display: none;
         opacity: 0;
