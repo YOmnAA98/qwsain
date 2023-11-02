@@ -32,6 +32,7 @@ import { TermsAndConditionsComponent } from './Pages/terms-and-conditions/terms-
 import { PaginationComponent } from './Pages/Shared/pagination/pagination.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { QuestionComponent } from './Pages/question/question.component';
+import { DictionarySectionComponent } from './Pages/HomePage/dictionary-section/dictionary-section.component';
 
 @NgModule({
   declarations: [
@@ -60,7 +61,8 @@ import { QuestionComponent } from './Pages/question/question.component';
     PrivacyPolicyComponent,
     TermsAndConditionsComponent,
     PaginationComponent,
-    QuestionComponent,        
+    QuestionComponent,
+    DictionarySectionComponent,        
   ],
   imports: [
     BrowserModule,

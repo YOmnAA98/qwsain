@@ -1,5 +1,5 @@
 .breadcrumb li{
-    font-size: 20px;
+    font-size: 16px;
 }
 .breadcrumb li a{
     color: var(--dark-text);

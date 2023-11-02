@@ -3,8 +3,8 @@
 }
 /* title */
 .course-tutorial .course-tutorial-title button i{
-    font-size: 40px;
-    color: var(--dark-text);        
+    font-size: 30px;
+    color: var(--dark-text);
 }
 @media screen and (max-width: 992) {
     .course-tutorial .course-tutorial-title .breadcrumb{
@@ -14,6 +14,12 @@
 
 /* content */
 /* right side */
+.course-tutorial .course-tutorial-content .right-side{
+    background-color: #E0E0E0;
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+}
 .course-tutorial .course-tutorial-content .right-side .lessons-subjects h4{
     font-size: 20px;
     background-color: var(--primary-color);
@@ -23,7 +29,7 @@
     color: var(--primary-color);
 }
 .course-tutorial .course-tutorial-content .right-side .lessons-subjects ul li a.active{
-    background-color: var(--light-bg);
+    background-color: var(--white-color);
 }
 .course-tutorial .course-tutorial-content .right-side .lessons-subjects ul li a:hover{
     background-color: var(--primary-color);
@@ -162,12 +168,12 @@
     background-color: var(--primary-color);
     border: 1px solid var(--primary-color);
 }
-.course-tutorial .course-tutorial-content .left-side .suggested-lessons h4{
+.course-tutorial .course-tutorial-content .suggested-lessons h4{
     font-size: 20px;
     font-weight: bold;
     color: var(--dark-text);
 }
-.course-tutorial .course-tutorial-content .left-side .suggested-lessons p{
+.course-tutorial .course-tutorial-content .suggested-lessons p{
     font-weight: bold;
     color: var(--primary-color);
     height: 64px;
